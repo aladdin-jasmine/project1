@@ -1,0 +1,145 @@
+{
+  "maxRetries": 3,
+  "backoffMs": 800,
+  "backoffFactor": 2,
+  "triggerCodes": [
+    429,
+    500,
+    503,
+    403,
+    401
+  ],
+  "failbackMode": "key-then-provider",
+  "embeddingModel": "text-embedding-3-small",
+  "localEmbeddingFallback": true,
+  "hybridSearch": true,
+  "reranker": false,
+  "rerankerModel": "Xenova/bge-reranker-base",
+  "multiQuery": true,
+  "contextCompression": true,
+  "compressionTokens": 6000,
+  "learningStyle": "balanced",
+  "defaultExplainLevel": "Engineering",
+  "dynamicModelSwitch": true,
+  "dynamicModelPool": [
+    "fac7fd53-2675-4e3b-84df-ca4649bcd3cd::llama-3.3-70b-versatile",
+    "fac7fd53-2675-4e3b-84df-ca4649bcd3cd::qwen/qwen3.6-27b",
+    "fac7fd53-2675-4e3b-84df-ca4649bcd3cd::openai/gpt-oss-120b",
+    "fac7fd53-2675-4e3b-84df-ca4649bcd3cd::openai/gpt-oss-20b",
+    "fac7fd53-2675-4e3b-84df-ca4649bcd3cd::llama-3.1-8b-instant",
+    "fac7fd53-2675-4e3b-84df-ca4649bcd3cd::allam-2-7b",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::inclusionai/ling-3.0-flash:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::poolside/laguna-s-2.1:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::poolside/laguna-xs-2.1:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::cohere/north-mini-code:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::poolside/laguna-m.1:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::google/gemma-4-26b-a4b-it:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::google/gemma-4-31b-it:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::nvidia/nemotron-3-nano-30b-a3b:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::nvidia/nemotron-nano-12b-v2-vl:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::nvidia/nemotron-nano-9b-v2:free",
+    "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec::openai/gpt-oss-20b:free"
+  ],
+  "taskConfigs": {
+    "slides": {
+      "taskType": "slides",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "flashcards": {
+      "taskType": "flashcards",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "quiz": {
+      "taskType": "quiz",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "mindmap": {
+      "taskType": "mindmap",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "studyplan": {
+      "taskType": "studyplan",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "chat": {
+      "taskType": "chat",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "agent": {
+      "taskType": "agent",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "notes": {
+      "taskType": "notes",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "visual": {
+      "taskType": "visual",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "graph": {
+      "taskType": "graph",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "recommend": {
+      "taskType": "recommend",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "predict": {
+      "taskType": "predict",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "voice-stt": {
+      "taskType": "voice-stt",
+      "useDefault": false,
+      "fallbackToDefault": true,
+      "providerId": "fac7fd53-2675-4e3b-84df-ca4649bcd3cd",
+      "modelId": "whisper-large-v3-turbo"
+    },
+    "voice-tts": {
+      "taskType": "voice-tts",
+      "useDefault": false,
+      "fallbackToDefault": true,
+      "providerId": "fac7fd53-2675-4e3b-84df-ca4649bcd3cd",
+      "modelId": "canopylabs/orpheus-v1-english"
+    },
+    "embeddings": {
+      "taskType": "embeddings",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "explain": {
+      "taskType": "explain",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "summarize": {
+      "taskType": "summarize",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "evaluate": {
+      "taskType": "evaluate",
+      "useDefault": true,
+      "fallbackToDefault": true
+    },
+    "studypack": {
+      "taskType": "studypack",
+      "useDefault": true,
+      "fallbackToDefault": true
+    }
+  }
+}

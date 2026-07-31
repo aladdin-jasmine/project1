@@ -1,0 +1,268 @@
+{
+  "xp": 480,
+  "streak": {
+    "lastDate": "2026-07-31",
+    "count": 1
+  },
+  "weakTopics": {
+    "security": {
+      "correct": 2,
+      "incorrect": 0
+    },
+    "penetration testing": {
+      "correct": 2,
+      "incorrect": 0
+    },
+    "cryptography": {
+      "correct": 1,
+      "incorrect": 0
+    },
+    "RAG": {
+      "correct": 1,
+      "incorrect": 0
+    },
+    "Agents": {
+      "correct": 1,
+      "incorrect": 0
+    },
+    "Retrieval": {
+      "correct": 1,
+      "incorrect": 0
+    },
+    "AI Learning Platforms": {
+      "correct": 0,
+      "incorrect": 1
+    },
+    "Cryptography": {
+      "correct": 0,
+      "incorrect": 1
+    },
+    "Network Security": {
+      "correct": 0,
+      "incorrect": 2
+    },
+    "Authentication Protocols": {
+      "correct": 0,
+      "incorrect": 1
+    },
+    "AI System Architecture": {
+      "correct": 0,
+      "incorrect": 1
+    },
+    "Python Programming": {
+      "correct": 0,
+      "incorrect": 1
+    },
+    "Programming Languages": {
+      "correct": 0,
+      "incorrect": 1
+    },
+    "math": {
+      "correct": 1,
+      "incorrect": 0
+    },
+    "cybersecurity": {
+      "correct": 1,
+      "incorrect": 0
+    }
+  },
+  "totals": {
+    "slides": 6,
+    "flashcards": 10,
+    "quizzes": 0,
+    "chats": 0,
+    "mindmaps": 0,
+    "plans": 0,
+    "notes": 2,
+    "voice": 0,
+    "explain": 0,
+    "summarize": 0,
+    "eval": 0,
+    "chat": 14,
+    "mindmap": 1,
+    "quiz": 9
+  },
+  "studyTimeMin": 0,
+  "quizHistory": [
+    {
+      "date": "2026-07-31",
+      "score": 0
+    }
+  ],
+  "activityHistory": [
+    {
+      "date": "2026-07-28",
+      "type": "slides"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "notes"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "notes"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "slides"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "slides"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "slides"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "slides"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "slides"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "mindmap"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "quiz"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "flashcards"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "chat"
+    }
+  ],
+  "knowledgeHistory": [
+    {
+      "date": "2026-07-31",
+      "score": 0
+    }
+  ]
+}

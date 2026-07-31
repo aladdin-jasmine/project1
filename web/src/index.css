@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --brand-gradient: linear-gradient(135deg, #1f41f5 0%, #7c3aed 100%);
+  --brand-gradient-light: linear-gradient(135deg, #eef4ff 0%, #f5f3ff 100%);
+  --glass-bg: rgba(255, 255, 255, 0.6);
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f6f7f9;
+  background-image: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(53, 99, 255, 0.06) 0%, transparent 100%);
+  color: #1f2530;
+  font-family: Inter, system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+*::-webkit-scrollbar { width: 6px; height: 6px; }
+*::-webkit-scrollbar-thumb { background: #d4d9e2; border-radius: 9px; }
+*::-webkit-scrollbar-thumb:hover { background: #aeb7c8; }
+*::-webkit-scrollbar-track { background: transparent; }
+
+@layer components {
+  .card {
+    @apply bg-white border border-ink-200/60 rounded-xl shadow-card transition-all duration-200;
+  }
+  .card-hover {
+    @apply card hover:shadow-card-hover hover:border-ink-200;
+  }
+  .card-glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 rounded-xl shadow-card;
+  }
+  .card-gradient {
+    @apply bg-gradient-to-br from-white to-ink-50/50 border border-ink-200/60 rounded-xl shadow-card;
+  }
+  .input {
+    @apply w-full px-3.5 py-2.5 rounded-lg border border-ink-200 bg-white text-ink-900 outline-none 
+           focus:ring-2 focus:ring-brand-400/30 focus:border-brand-400 transition-all duration-200
+           placeholder:text-ink-300 text-sm;
+  }
+  .input-error {
+    @apply input border-red-300 focus:ring-red-400/30 focus:border-red-400;
+  }
+  .label {
+    @apply block text-sm font-medium text-ink-700 mb-1.5;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium 
+           transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed
+           active:scale-[0.97] select-none;
+  }
+  .btn-primary {
+    @apply btn text-white relative overflow-hidden;
+    background: var(--brand-gradient);
+  }
+  .btn-primary:hover {
+    @apply shadow-glow;
+  }
+  .btn-primary:active {
+    @apply shadow-none;
+  }
+  .btn-secondary {
+    @apply btn bg-ink-900 text-white hover:bg-ink-800;
+  }
+  .btn-ghost {
+    @apply btn bg-transparent text-ink-700 hover:bg-ink-100/80;
+  }
+  .btn-outline {
+    @apply btn border border-ink-200 text-ink-700 hover:bg-ink-50 hover:border-ink-300;
+  }
+  .btn-danger {
+    @apply btn bg-gradient-to-r from-red-500 to-red-600 text-white hover:from-red-600 hover:to-red-700 shadow-md;
+  }
+  .btn-success {
+    @apply btn bg-gradient-to-r from-emerald-500 to-green-600 text-white hover:from-emerald-600 hover:to-green-700 shadow-md;
+  }
+  .btn-soft {
+    @apply btn bg-brand-50 text-brand-700 hover:bg-brand-100 border border-brand-200/50;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold uppercase tracking-wider;
+  }
+  .badge-brand { @apply badge bg-brand-100 text-brand-700; }
+  .badge-green { @apply badge bg-emerald-100 text-emerald-700; }
+  .badge-red { @apply badge bg-red-100 text-red-700; }
+  .badge-amber { @apply badge bg-amber-100 text-amber-700; }
+  .badge-purple { @apply badge bg-purple-100 text-purple-700; }
+  .badge-teal { @apply badge bg-teal-100 text-teal-700; }
+  .badge-gray { @apply badge bg-ink-100 text-ink-600; }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--brand-gradient);
+  }
+
+  .section-title {
+    @apply text-lg font-bold text-ink-900 flex items-center gap-2;
+  }
+  .section-desc {
+    @apply text-sm text-ink-500;
+  }
+
+  .divider {
+    @apply border-t border-ink-200/60 my-4;
+  }
+  
+  /* Tab styles */
+  .tab {
+    @apply px-4 py-2.5 text-sm font-medium whitespace-nowrap border-b-2 -mb-px transition-all duration-200 
+           flex items-center gap-2 cursor-pointer select-none;
+  }
+  .tab-active {
+    @apply tab border-brand-600 text-brand-700;
+  }
+  .tab-inactive {
+    @apply tab border-transparent text-ink-500 hover:text-ink-800 hover:border-ink-300;
+  }
+
+  /* Status indicators */
+  .status-dot {
+    @apply w-2 h-2 rounded-full inline-block;
+  }
+  .status-dot-online { @apply status-dot bg-emerald-500; }
+  .status-dot-offline { @apply status-dot bg-red-500; }
+  .status-dot-warning { @apply status-dot bg-amber-500; }
+
+  /* Animated backgrounds */
+  .shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.sf-markdown h1 { @apply text-xl font-bold text-ink-900 mt-4 mb-2; }
+.sf-markdown h2 { @apply text-lg font-bold text-ink-900 mt-4 mb-2; }
+.sf-markdown h3 { @apply text-base font-semibold text-ink-800 mt-3 mb-1.5; }
+.sf-markdown p { @apply my-2 leading-relaxed; }
+.sf-markdown ul { @apply list-disc list-inside my-2 space-y-1; }
+.sf-markdown ol { @apply list-decimal list-inside my-2 space-y-1; }
+.sf-markdown code:not(pre code) { @apply bg-ink-100 text-brand-700 px-1.5 py-0.5 rounded text-[0.85em] font-mono; }
+.sf-markdown-code { @apply bg-ink-100 text-brand-700 px-1.5 py-0.5 rounded text-[0.85em] font-mono; }
+.sf-markdown pre { @apply bg-ink-900 text-ink-100 rounded-lg p-4 my-3 overflow-auto text-sm; }
+.sf-markdown pre code { @apply text-ink-100; }
+.sf-markdown blockquote { @apply border-l-4 border-brand-200 pl-4 text-ink-500 my-3 italic; }
+.sf-markdown a { @apply text-brand-600 underline hover:text-brand-700; }
+.sf-markdown table { @apply w-full border-collapse my-3; }
+.sf-markdown th { @apply bg-ink-50 text-ink-700 font-semibold px-3 py-2 border border-ink-200 text-left text-sm; }
+.sf-markdown td { @apply px-3 py-2 border border-ink-200 text-sm; }
+
+.mermaid svg { @apply max-w-full h-auto; }
+
+/* Hide mermaid version/syntax error banners and broken SVG output.
+   Successful renders always include a viewBox; error fallbacks do not. */
+.mermaid svg:not([viewBox]) {
+  display: none !important;
+}
+
+.animate-slide-up { animation: slide-up 0.3s ease-out; }
+.animate-fade-in { animation: fade-in 0.25s ease-out; }
+.animate-scale-in { animation: scale-in 0.2s ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

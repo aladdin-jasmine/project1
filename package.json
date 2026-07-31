@@ -1,0 +1,25 @@
+{
+  "name": "studyforge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RAG-Enhanced Intelligent Study Assistant for Personalized Learning and Knowledge Retrieval",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,green \"npm run dev -w server\" \"npm run dev -w web\"",
+    "build": "npm run build -w web",
+    "start": "npm run start -w server",
+    "install:all": "npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.62.0"
+  }
+}

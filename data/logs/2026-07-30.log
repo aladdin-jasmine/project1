@@ -1,0 +1,1749 @@
+[2026-07-30T11:31:09.755Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T11:31:09.756Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T11:47:12.598Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T11:47:12.599Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T11:47:27.075Z] [INFO] → GET /api/rag/folders
+[2026-07-30T11:47:27.080Z] [INFO] ← GET /folders 200 (6ms)
+[2026-07-30T11:47:27.085Z] [INFO] → GET /api/rag/staged
+[2026-07-30T11:47:27.087Z] [INFO] ← GET /staged 200 (3ms)
+[2026-07-30T11:47:27.091Z] [INFO] → GET /api/rag/folders/paths
+[2026-07-30T11:47:27.093Z] [INFO] ← GET /folders/paths 200 (2ms)
+[2026-07-30T11:47:27.096Z] [INFO] → GET /api/analytics/advanced
+[2026-07-30T11:47:27.476Z] [INFO] ← GET / 200 (379ms)
+[2026-07-30T11:47:27.478Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-30T11:47:27.483Z] [INFO] ← GET /profile 200 (4ms)
+[2026-07-30T11:47:27.484Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-30T11:47:27.486Z] [INFO] ← GET /recommendations 200 (3ms)
+[2026-07-30T11:47:27.488Z] [INFO] → GET /api/rag/docs
+[2026-07-30T11:47:27.490Z] [INFO] ← GET /docs 200 (2ms)
+[2026-07-30T11:47:27.492Z] [INFO] → GET /api/history
+[2026-07-30T11:47:27.498Z] [INFO] ← GET / 200 (6ms)
+[2026-07-30T11:47:27.719Z] [INFO] → POST /api/history/draft
+[2026-07-30T11:47:27.725Z] [INFO] ← POST /draft 200 (6ms)
+[2026-07-30T11:47:27.741Z] [INFO] → GET /api/history/e8bf56d4-f378-46c4-907d-3f201790da28
+[2026-07-30T11:47:27.744Z] [INFO] ← GET /e8bf56d4-f378-46c4-907d-3f201790da28 200 (3ms)
+[2026-07-30T11:47:27.753Z] [INFO] → POST /api/study/slides
+[2026-07-30T11:47:28.170Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T11:47:28.171Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T11:47:29.753Z] [INFO] → GET /api/history/e8bf56d4-f378-46c4-907d-3f201790da28
+[2026-07-30T11:47:29.754Z] [INFO] ← GET /e8bf56d4-f378-46c4-907d-3f201790da28 304 (1ms)
+[2026-07-30T11:47:31.639Z] [INFO] Local embedding model ready
+[2026-07-30T11:47:31.675Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T11:47:31.767Z] [INFO] → GET /api/history/e8bf56d4-f378-46c4-907d-3f201790da28
+[2026-07-30T11:47:31.769Z] [INFO] ← GET /e8bf56d4-f378-46c4-907d-3f201790da28 304 (2ms)
+[2026-07-30T11:47:33.782Z] [INFO] → GET /api/history/e8bf56d4-f378-46c4-907d-3f201790da28
+[2026-07-30T11:47:33.783Z] [INFO] ← GET /e8bf56d4-f378-46c4-907d-3f201790da28 304 (1ms)
+[2026-07-30T11:47:36.969Z] [ACTION] [ACTION] generation.complete | {"draftId":"e8bf56d4-f378-46c4-907d-3f201790da28","type":"slides","subType":"presentation","scope":"studio"}
+[2026-07-30T11:47:36.970Z] [INFO] ← POST /slides 200 (9218ms)
+[2026-07-30T11:47:36.976Z] [INFO] → PATCH /api/history/e8bf56d4-f378-46c4-907d-3f201790da28
+[2026-07-30T11:47:36.979Z] [INFO] ← PATCH /e8bf56d4-f378-46c4-907d-3f201790da28 200 (3ms)
+[2026-07-30T11:47:36.985Z] [INFO] → GET /api/history/e8bf56d4-f378-46c4-907d-3f201790da28
+[2026-07-30T11:47:36.986Z] [INFO] ← GET /e8bf56d4-f378-46c4-907d-3f201790da28 200 (1ms)
+[2026-07-30T11:47:52.246Z] [INFO] → POST /api/export/pptx
+[2026-07-30T11:47:52.273Z] [INFO] ← POST /pptx 200 (27ms)
+[2026-07-30T11:48:06.401Z] [INFO] → GET /api/rag/docs
+[2026-07-30T11:48:06.402Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T11:51:17.276Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T11:51:17.277Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T11:51:19.248Z] [INFO] → GET /api/progress
+[2026-07-30T11:51:19.253Z] [INFO] ← GET / 200 (5ms)
+[2026-07-30T11:51:19.255Z] [INFO] → GET /api/projects
+[2026-07-30T11:51:19.257Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T11:51:19.258Z] [INFO] → GET /api/providers
+[2026-07-30T11:51:19.262Z] [INFO] ← GET / 200 (4ms)
+[2026-07-30T11:51:19.263Z] [INFO] → GET /api/analytics
+[2026-07-30T11:51:19.618Z] [INFO] ← GET / 200 (354ms)
+[2026-07-30T11:51:20.510Z] [INFO] → GET /api/providers
+[2026-07-30T11:51:20.514Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T11:51:20.516Z] [INFO] → GET /api/projects
+[2026-07-30T11:51:20.518Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T11:51:22.536Z] [INFO] → GET /api/settings
+[2026-07-30T11:51:22.539Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T11:51:22.541Z] [INFO] → GET /api/providers
+[2026-07-30T11:51:22.545Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T11:51:23.177Z] [INFO] → GET /api/rag/folders
+[2026-07-30T11:51:23.180Z] [INFO] ← GET /folders 304 (4ms)
+[2026-07-30T11:51:23.184Z] [INFO] → GET /api/rag/docs
+[2026-07-30T11:51:23.186Z] [INFO] ← GET /docs 200 (2ms)
+[2026-07-30T11:51:23.188Z] [INFO] → GET /api/rag/staged
+[2026-07-30T11:51:23.190Z] [INFO] ← GET /staged 304 (2ms)
+[2026-07-30T11:51:23.192Z] [INFO] → GET /api/rag/folders/paths
+[2026-07-30T11:51:23.194Z] [INFO] ← GET /folders/paths 304 (3ms)
+[2026-07-30T11:51:23.887Z] [INFO] → GET /api/analytics/advanced
+[2026-07-30T11:51:23.893Z] [INFO] ← GET / 304 (6ms)
+[2026-07-30T11:51:23.895Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-30T11:51:23.900Z] [INFO] ← GET /profile 304 (5ms)
+[2026-07-30T11:51:23.901Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-30T11:51:23.904Z] [INFO] ← GET /recommendations 304 (4ms)
+[2026-07-30T11:51:24.815Z] [INFO] → GET /api/rag/docs
+[2026-07-30T11:51:24.817Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T11:51:24.820Z] [INFO] → GET /api/history
+[2026-07-30T11:51:24.826Z] [INFO] ← GET / 304 (6ms)
+[2026-07-30T11:51:28.401Z] [INFO] → GET /api/projects
+[2026-07-30T11:51:28.403Z] [INFO] ← GET / 304 (1ms)
+[2026-07-30T11:51:28.405Z] [INFO] → GET /api/providers
+[2026-07-30T11:51:28.408Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T11:51:28.562Z] [INFO] → GET /api/providers
+[2026-07-30T11:51:28.565Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T11:51:28.567Z] [INFO] → GET /api/projects
+[2026-07-30T11:51:28.569Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T11:51:29.470Z] [INFO] → GET /api/rag/docs
+[2026-07-30T11:51:29.472Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T11:52:42.506Z] [INFO] → GET /
+[2026-07-30T11:52:42.514Z] [INFO] ← GET / 200 (8ms)
+[2026-07-30T11:52:42.538Z] [INFO] → GET /providers
+[2026-07-30T11:52:42.543Z] [INFO] ← GET /providers 200 (4ms)
+[2026-07-30T11:52:42.579Z] [INFO] → GET /assets/index-CzCMYHQP.js
+[2026-07-30T11:52:42.586Z] [INFO] → GET /assets/index-Dw4T5rL8.css
+[2026-07-30T11:52:42.590Z] [INFO] ← GET /assets/index-Dw4T5rL8.css 200 (4ms)
+[2026-07-30T11:52:42.595Z] [INFO] ← GET /assets/index-CzCMYHQP.js 200 (16ms)
+[2026-07-30T11:52:42.690Z] [INFO] → GET /api/providers
+[2026-07-30T11:52:42.694Z] [INFO] ← GET / 200 (4ms)
+[2026-07-30T11:52:42.696Z] [INFO] → GET /api/projects
+[2026-07-30T11:52:42.698Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T11:52:45.831Z] [INFO] → GET /assets/index-CzCMYHQP.js
+[2026-07-30T11:52:45.844Z] [INFO] ← GET /assets/index-CzCMYHQP.js 200 (13ms)
+[2026-07-30T12:28:59.344Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T12:28:59.345Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T12:35:03.304Z] [INFO] → GET /api/health
+[2026-07-30T12:35:03.307Z] [INFO] ← GET /api/health 200 (3ms)
+[2026-07-30T12:56:51.627Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T12:56:51.628Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T12:57:01.508Z] [INFO] → GET /api/health
+[2026-07-30T12:57:01.514Z] [INFO] ← GET /api/health 200 (6ms)
+[2026-07-30T12:57:24.009Z] [INFO] → GET /api/settings/tasks/voice-tts
+[2026-07-30T12:57:24.012Z] [INFO] ← GET /tasks/voice-tts 200 (3ms)
+[2026-07-30T12:57:24.082Z] [INFO] → PUT /api/settings/tasks/voice-tts
+[2026-07-30T12:57:24.085Z] [INFO] ← PUT /tasks/voice-tts 200 (3ms)
+[2026-07-30T12:57:50.087Z] [INFO] → PUT /api/settings
+[2026-07-30T12:57:50.092Z] [INFO] ← PUT / 200 (5ms)
+[2026-07-30T12:57:50.185Z] [INFO] → PUT /api/settings/tasks/voice-tts
+[2026-07-30T12:57:50.188Z] [INFO] ← PUT /tasks/voice-tts 200 (3ms)
+[2026-07-30T12:57:50.226Z] [INFO] → GET /api/settings
+[2026-07-30T12:57:50.228Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T12:58:47.753Z] [INFO] → GET /api/voice/status
+[2026-07-30T12:58:47.757Z] [INFO] ← GET /status 200 (4ms)
+[2026-07-30T12:58:47.824Z] [INFO] → GET /api/history
+[2026-07-30T12:58:47.839Z] [INFO] ← GET / 200 (15ms)
+[2026-07-30T12:58:47.896Z] [INFO] → GET /api/history
+[2026-07-30T12:58:47.899Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T12:59:20.236Z] [INFO] → POST /api/voice/tts
+[2026-07-30T12:59:21.019Z] [INFO] ← POST /tts 200 (783ms)
+[2026-07-30T13:01:14.334Z] [INFO] → PUT /api/settings/tasks/voice-tts
+[2026-07-30T13:01:14.336Z] [INFO] ← PUT /tasks/voice-tts 200 (2ms)
+[2026-07-30T13:01:18.544Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:01:18.545Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:01:28.762Z] [INFO] → GET /api/settings/tasks/voice-tts
+[2026-07-30T13:01:28.765Z] [INFO] ← GET /tasks/voice-tts 200 (4ms)
+[2026-07-30T13:02:49.919Z] [INFO] → GET /api/history
+[2026-07-30T13:02:49.923Z] [INFO] ← GET / 200 (4ms)
+[2026-07-30T13:03:41.859Z] [INFO] → POST /api/voice/stt
+[2026-07-30T13:03:42.114Z] [INFO] ← POST /stt 200 (256ms)
+[2026-07-30T13:04:18.653Z] [INFO] → PATCH /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-30T13:04:18.657Z] [INFO] ← PATCH /19f2c342-d069-4d61-bca6-0966bc943f07 200 (3ms)
+[2026-07-30T13:25:44.523Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:25:44.524Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:26:23.424Z] [INFO] → GET /api/rag/docs
+[2026-07-30T13:26:23.755Z] [INFO] ← GET /docs 200 (330ms)
+[2026-07-30T13:26:50.830Z] [INFO] → POST /api/search
+[2026-07-30T13:26:51.232Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T13:26:51.233Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T13:26:55.065Z] [INFO] Local embedding model ready
+[2026-07-30T13:26:55.356Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T13:26:56.215Z] [INFO] ← POST / 200 (5384ms)
+[2026-07-30T13:27:06.961Z] [INFO] → POST /api/study/notes
+[2026-07-30T13:27:21.605Z] [INFO] ✗ Notes(5-mark) validation {
+  "valid": false,
+  "errors": [
+    "Question 1: Answer too short: 23 words (minimum 400)",
+    "Question 2: Answer too short: 21 words (minimum 400)",
+    "Question 3: Answer too short: 30 words (minimum 400)",
+    "Question 4: Answer too short: 31 words (minimum 400)",
+    "Question 5: Answer too short: 29 words (minimum 400)",
+    "Question 6: Answer too short: 27 words (minimum 400)",
+    "Question 7: Answer too short: 28 words (minimum 400)",
+    "Question 8: Answer too short: 27 words (minimum 400)"
+  ],
+  "warnings": [
+    "Question 1: Should have at least 4 key points",
+    "Question 3: Should have at least 2 examples",
+    "Question 4: Should have at least 2 examples",
+    "Question 5: Should have at least 2 examples",
+    "Question 6: Should have at least 2 examples",
+    "Question 7: Should have at least 2 examples",
+    "Question 8: Should have at least 2 examples"
+  ],
+  "metrics": {
+    "wordCount": 23
+  }
+}
+[2026-07-30T13:27:21.606Z] [ERROR] ❌ Notes validation failed for 5-mark: [
+  "Question 1: Answer too short: 23 words (minimum 400)",
+  "Question 2: Answer too short: 21 words (minimum 400)",
+  "Question 3: Answer too short: 30 words (minimum 400)",
+  "Question 4: Answer too short: 31 words (minimum 400)",
+  "Question 5: Answer too short: 29 words (minimum 400)",
+  "Question 6: Answer too short: 27 words (minimum 400)",
+  "Question 7: Answer too short: 28 words (minimum 400)",
+  "Question 8: Answer too short: 27 words (minimum 400)"
+]
+[2026-07-30T13:27:21.611Z] [ACTION] [ACTION] generation.create | {"historyId":"bef788d8-b747-474c-9069-76f30c214dc9","type":"notes","subType":"5-mark","scope":"notes"}
+[2026-07-30T13:27:21.612Z] [INFO] ← POST /notes 200 (14650ms)
+[2026-07-30T13:27:31.094Z] [INFO] → POST /api/study/notes
+[2026-07-30T13:27:44.654Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:27:45.663Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:27:50.821Z] [WARN] ← POST /notes 500 (19727ms)
+[2026-07-30T13:29:37.827Z] [INFO] → POST /api/study/notes
+[2026-07-30T13:29:38.560Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:29:39.618Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:29:42.645Z] [WARN] ← POST /notes 500 (4818ms)
+[2026-07-30T13:30:06.505Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:30:06.505Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:30:14.201Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:30:14.202Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:30:24.497Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:30:24.498Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:31:24.553Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:31:24.554Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:31:42.224Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:31:42.225Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:31:57.553Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:31:57.554Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:32:28.543Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:32:28.544Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:32:38.172Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:32:38.173Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:33:12.724Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:33:12.724Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:33:37.573Z] [INFO] → POST /api/study/notes
+[2026-07-30T13:33:38.609Z] [WARN] Provider "Groq" does not support embeddings (403); using the local embedding model instead.
+[2026-07-30T13:33:38.610Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T13:33:38.733Z] [INFO] Local embedding model ready
+[2026-07-30T13:33:38.754Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T13:33:39.488Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:33:40.475Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:33:44.433Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:33:45.438Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:33:51.395Z] [INFO] ✓ Notes(short-notes) validation {
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "sectionCount": 8
+  }
+}
+[2026-07-30T13:33:51.396Z] [INFO] ✅ Notes validation passed for short-notes
+[2026-07-30T13:33:51.400Z] [ACTION] [ACTION] generation.create | {"historyId":"ccc01f85-d43c-445b-b429-e17a75a54073","type":"notes","subType":"short-notes","scope":"notes"}
+[2026-07-30T13:33:51.402Z] [INFO] ← POST /notes 200 (13829ms)
+[2026-07-30T13:34:20.150Z] [INFO] → POST /api/study/notes
+[2026-07-30T13:34:20.895Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:34:22.096Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:34:25.503Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:34:26.502Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:34:46.128Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:34:47.124Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:34:58.598Z] [WARN] ← POST /notes 500 (38447ms)
+[2026-07-30T13:34:58.704Z] [INFO] → POST /api/study/notes
+[2026-07-30T13:34:59.281Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:35:00.266Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:35:03.789Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:35:04.774Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:35:17.791Z] [WARN] Provider "Groq" key "dark" hit 403 → cooldown 800ms, failing over to next key
+[2026-07-30T13:35:18.996Z] [WARN] Provider "Groq" key "veng" hit 403 → cooldown 1600ms, failing over to next key
+[2026-07-30T13:35:30.018Z] [WARN] ← POST /notes 500 (31314ms)
+[2026-07-30T13:36:20.752Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:36:20.753Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:37:11.358Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:37:11.359Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:37:24.975Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:37:24.976Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:38:16.082Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:38:16.082Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:38:49.487Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:38:49.487Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T13:39:04.751Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T13:39:04.751Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T16:17:28.184Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T16:17:28.185Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T16:17:45.145Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:17:45.567Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T16:17:45.569Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T16:17:45.822Z] [INFO] Local embedding model ready
+[2026-07-30T16:17:45.868Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T16:20:16.277Z] [INFO] ✗ Notes(5-mark) validation {
+  "valid": false,
+  "errors": [
+    "Question 1: Answer too short: 25 words (minimum 400)",
+    "Question 2: Answer too short: 26 words (minimum 400)",
+    "Question 3: Answer too short: 28 words (minimum 400)",
+    "Question 4: Answer too short: 128 words (minimum 400)",
+    "Question 5: Answer too short: 23 words (minimum 400)",
+    "Question 6: Answer too short: 13 words (minimum 400)",
+    "Question 7: Answer too short: 14 words (minimum 400)",
+    "Question 8: Answer too short: 117 words (minimum 400)",
+    "Question 9: Answer too short: 29 words (minimum 400)"
+  ],
+  "warnings": [
+    "Question 3: Should have at least 4 key points",
+    "Question 4: Should have at least 3-4 subtopics",
+    "Question 4: Should have at least 2 examples",
+    "Question 4: Should have at least 4 key points",
+    "Question 8: Should have at least 3-4 subtopics",
+    "Question 8: Should have at least 2 examples",
+    "Question 8: Should have at least 4 key points"
+  ],
+  "metrics": {
+    "wordCount": 25
+  }
+}
+[2026-07-30T16:20:16.278Z] [ERROR] ❌ Notes validation failed for 5-mark: [
+  "Question 1: Answer too short: 25 words (minimum 400)",
+  "Question 2: Answer too short: 26 words (minimum 400)",
+  "Question 3: Answer too short: 28 words (minimum 400)",
+  "Question 4: Answer too short: 128 words (minimum 400)",
+  "Question 5: Answer too short: 23 words (minimum 400)",
+  "Question 6: Answer too short: 13 words (minimum 400)",
+  "Question 7: Answer too short: 14 words (minimum 400)",
+  "Question 8: Answer too short: 117 words (minimum 400)",
+  "Question 9: Answer too short: 29 words (minimum 400)"
+]
+[2026-07-30T16:20:16.285Z] [ACTION] [ACTION] generation.create | {"historyId":"36698192-5368-4bd2-91bd-ed15f7f73324","type":"notes","subType":"5-mark","scope":"notes"}
+[2026-07-30T16:20:16.288Z] [INFO] ← POST /notes 200 (151143ms)
+[2026-07-30T16:20:32.946Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:21:58.456Z] [INFO] ✗ Notes(5-mark) validation {
+  "valid": false,
+  "errors": [
+    "Question 1: Answer too short: 197 words (minimum 400)",
+    "Question 2: Answer too short: 63 words (minimum 400)",
+    "Question 3: Answer too short: 27 words (minimum 400)",
+    "Question 4: Answer too short: 31 words (minimum 400)",
+    "Question 5: Answer too short: 16 words (minimum 400)",
+    "Question 6: Answer too short: 24 words (minimum 400)",
+    "Question 7: Answer too short: 34 words (minimum 400)",
+    "Question 8: Answer too short: 25 words (minimum 400)",
+    "Question 9: Answer too short: 15 words (minimum 400)"
+  ],
+  "warnings": [
+    "Question 1: Should have at least 3-4 subtopics",
+    "Question 1: Should have at least 2 examples",
+    "Question 1: Should have at least 4 key points",
+    "Question 2: Should have at least 2 examples",
+    "Question 3: Should have at least 2 examples",
+    "Question 4: Should have at least 2 examples"
+  ],
+  "metrics": {
+    "wordCount": 197
+  }
+}
+[2026-07-30T16:21:58.457Z] [ERROR] ❌ Notes validation failed for 5-mark: [
+  "Question 1: Answer too short: 197 words (minimum 400)",
+  "Question 2: Answer too short: 63 words (minimum 400)",
+  "Question 3: Answer too short: 27 words (minimum 400)",
+  "Question 4: Answer too short: 31 words (minimum 400)",
+  "Question 5: Answer too short: 16 words (minimum 400)",
+  "Question 6: Answer too short: 24 words (minimum 400)",
+  "Question 7: Answer too short: 34 words (minimum 400)",
+  "Question 8: Answer too short: 25 words (minimum 400)",
+  "Question 9: Answer too short: 15 words (minimum 400)"
+]
+[2026-07-30T16:21:58.460Z] [ACTION] [ACTION] generation.create | {"historyId":"840b4c50-2d13-445e-af37-a486e0ed3f1d","type":"notes","subType":"5-mark","scope":"notes"}
+[2026-07-30T16:21:58.462Z] [INFO] ← POST /notes 200 (85516ms)
+[2026-07-30T16:22:14.855Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T16:22:14.855Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T16:30:48.324Z] [INFO] → GET /api/analytics/advanced
+[2026-07-30T16:30:48.786Z] [INFO] ← GET / 200 (462ms)
+[2026-07-30T16:30:48.789Z] [INFO] → GET /api/rag/folders/paths
+[2026-07-30T16:30:48.793Z] [INFO] ← GET /folders/paths 200 (4ms)
+[2026-07-30T16:30:48.795Z] [INFO] → GET /api/settings
+[2026-07-30T16:30:48.797Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T16:30:48.798Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-30T16:30:48.802Z] [INFO] ← GET /profile 200 (4ms)
+[2026-07-30T16:30:48.803Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-30T16:30:48.807Z] [INFO] ← GET /recommendations 200 (3ms)
+[2026-07-30T16:30:48.811Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:30:48.813Z] [INFO] ← GET /docs 200 (2ms)
+[2026-07-30T16:30:48.815Z] [INFO] → GET /api/rag/folders
+[2026-07-30T16:30:48.818Z] [INFO] ← GET /folders 200 (3ms)
+[2026-07-30T16:30:48.819Z] [INFO] → GET /api/rag/staged
+[2026-07-30T16:30:48.822Z] [INFO] ← GET /staged 200 (3ms)
+[2026-07-30T16:30:48.824Z] [INFO] → GET /api/progress
+[2026-07-30T16:30:48.827Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:30:48.829Z] [INFO] → GET /api/analytics
+[2026-07-30T16:30:48.832Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:30:48.833Z] [INFO] → GET /api/providers
+[2026-07-30T16:30:48.838Z] [INFO] ← GET / 200 (5ms)
+[2026-07-30T16:30:48.840Z] [INFO] → GET /api/history
+[2026-07-30T16:30:48.846Z] [INFO] ← GET / 200 (5ms)
+[2026-07-30T16:30:48.847Z] [INFO] → GET /api/projects
+[2026-07-30T16:30:48.849Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:30:48.851Z] [INFO] → GET /
+[2026-07-30T16:30:48.854Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:30:48.855Z] [INFO] ← GET /docs 200 (1ms)
+[2026-07-30T16:30:48.861Z] [INFO] ← GET / 200 (10ms)
+[2026-07-30T16:30:48.875Z] [INFO] → GET /advanced
+[2026-07-30T16:30:48.880Z] [INFO] ← GET /advanced 200 (5ms)
+[2026-07-30T16:30:48.921Z] [INFO] → GET /assets/index-Cagb_0oh.js
+[2026-07-30T16:30:48.926Z] [INFO] → GET /assets/index-BevIddHb.css
+[2026-07-30T16:30:48.930Z] [INFO] ← GET /assets/index-BevIddHb.css 200 (5ms)
+[2026-07-30T16:30:48.935Z] [INFO] ← GET /assets/index-Cagb_0oh.js 200 (14ms)
+[2026-07-30T16:30:48.944Z] [INFO] → GET /assets/index-Cagb_0oh.js
+[2026-07-30T16:30:48.987Z] [INFO] ← GET /assets/index-Cagb_0oh.js 200 (43ms)
+[2026-07-30T16:30:49.034Z] [INFO] → GET /api/settings
+[2026-07-30T16:30:49.036Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:30:49.038Z] [INFO] → GET /api/providers
+[2026-07-30T16:30:49.041Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:30:51.231Z] [INFO] → GET /api/providers
+[2026-07-30T16:30:51.234Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:30:51.236Z] [INFO] → GET /api/projects
+[2026-07-30T16:30:51.238Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:30:53.804Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:30:53.805Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:30:55.016Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:30:55.018Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-30T16:30:55.020Z] [INFO] → GET /api/history
+[2026-07-30T16:30:55.021Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:30:55.669Z] [INFO] → GET /api/analytics/advanced
+[2026-07-30T16:30:55.672Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:30:55.673Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-30T16:30:55.677Z] [INFO] ← GET /profile 304 (3ms)
+[2026-07-30T16:30:55.679Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-30T16:30:55.682Z] [INFO] ← GET /recommendations 304 (3ms)
+[2026-07-30T16:30:56.690Z] [INFO] → GET /api/providers
+[2026-07-30T16:30:56.694Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:30:56.695Z] [INFO] → GET /api/projects
+[2026-07-30T16:30:56.697Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:30:58.280Z] [INFO] → GET /api/progress
+[2026-07-30T16:30:58.282Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:30:58.285Z] [INFO] → GET /api/projects
+[2026-07-30T16:30:58.287Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:30:58.289Z] [INFO] → GET /api/providers
+[2026-07-30T16:30:58.293Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:30:58.295Z] [INFO] → GET /api/analytics
+[2026-07-30T16:30:58.297Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:31:19.447Z] [INFO] → GET /api/providers
+[2026-07-30T16:31:19.451Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:31:19.452Z] [INFO] → GET /api/projects
+[2026-07-30T16:31:19.454Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:31:22.275Z] [INFO] → GET /api/settings
+[2026-07-30T16:31:22.277Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:31:22.278Z] [INFO] → GET /api/providers
+[2026-07-30T16:31:22.282Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:31:56.027Z] [INFO] → PUT /api/settings/tasks/voice-stt
+[2026-07-30T16:31:56.031Z] [INFO] ← PUT /tasks/voice-stt 200 (4ms)
+[2026-07-30T16:31:56.033Z] [INFO] → PUT /api/settings/tasks/voice-tts
+[2026-07-30T16:31:56.035Z] [INFO] ← PUT /tasks/voice-tts 200 (2ms)
+[2026-07-30T16:31:56.039Z] [INFO] → GET /api/settings
+[2026-07-30T16:31:56.040Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T16:31:57.202Z] [INFO] → PUT /api/settings
+[2026-07-30T16:31:57.205Z] [INFO] ← PUT / 200 (3ms)
+[2026-07-30T16:31:57.207Z] [INFO] → PUT /api/settings/tasks/voice-stt
+[2026-07-30T16:31:57.210Z] [INFO] ← PUT /tasks/voice-stt 200 (3ms)
+[2026-07-30T16:31:57.214Z] [INFO] → PUT /api/settings/tasks/voice-tts
+[2026-07-30T16:31:57.217Z] [INFO] ← PUT /tasks/voice-tts 200 (3ms)
+[2026-07-30T16:31:57.220Z] [INFO] → GET /api/settings
+[2026-07-30T16:31:57.222Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T16:31:57.224Z] [INFO] → GET /api/providers
+[2026-07-30T16:31:57.227Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:31:57.231Z] [INFO] → GET /api/settings
+[2026-07-30T16:31:57.233Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:32:15.611Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:32:15.613Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:32:15.616Z] [INFO] → GET /api/rag/folders
+[2026-07-30T16:32:15.618Z] [INFO] ← GET /folders 304 (2ms)
+[2026-07-30T16:32:15.619Z] [INFO] → GET /api/rag/staged
+[2026-07-30T16:32:15.621Z] [INFO] ← GET /staged 304 (1ms)
+[2026-07-30T16:32:15.622Z] [INFO] → GET /api/rag/folders/paths
+[2026-07-30T16:32:15.624Z] [INFO] ← GET /folders/paths 304 (2ms)
+[2026-07-30T16:32:16.221Z] [INFO] → GET /api/analytics/advanced
+[2026-07-30T16:32:16.226Z] [INFO] ← GET / 304 (5ms)
+[2026-07-30T16:32:16.227Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-30T16:32:16.231Z] [INFO] ← GET /profile 304 (4ms)
+[2026-07-30T16:32:16.233Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-30T16:32:16.236Z] [INFO] ← GET /recommendations 304 (3ms)
+[2026-07-30T16:32:16.955Z] [INFO] → GET /api/providers
+[2026-07-30T16:32:16.959Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:32:16.960Z] [INFO] → GET /api/projects
+[2026-07-30T16:32:16.962Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:34:29.656Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T16:34:29.656Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T16:36:35.162Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T16:36:35.163Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T16:36:38.604Z] [INFO] → GET /api/progress
+[2026-07-30T16:36:38.609Z] [INFO] ← GET / 200 (4ms)
+[2026-07-30T16:36:38.611Z] [INFO] → GET /api/projects
+[2026-07-30T16:36:38.613Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T16:36:38.614Z] [INFO] → GET /api/analytics
+[2026-07-30T16:36:39.014Z] [INFO] ← GET / 200 (400ms)
+[2026-07-30T16:36:39.015Z] [INFO] → GET /api/providers
+[2026-07-30T16:36:39.018Z] [INFO] ← GET / 200 (4ms)
+[2026-07-30T16:36:40.518Z] [INFO] → GET /api/providers
+[2026-07-30T16:36:40.521Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:36:40.522Z] [INFO] → GET /api/projects
+[2026-07-30T16:36:40.524Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:36:44.073Z] [INFO] → GET /api/admin/overview
+[2026-07-30T16:36:44.116Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T16:36:44.118Z] [INFO] ← GET /overview 200 (45ms)
+[2026-07-30T16:36:47.059Z] [INFO] → GET /api/progress
+[2026-07-30T16:36:47.061Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:36:47.063Z] [INFO] → GET /api/projects
+[2026-07-30T16:36:47.065Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:36:47.067Z] [INFO] → GET /api/providers
+[2026-07-30T16:36:47.071Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:36:47.073Z] [INFO] → GET /api/analytics
+[2026-07-30T16:36:47.075Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:36:50.005Z] [INFO] → GET /api/providers
+[2026-07-30T16:36:50.009Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:36:50.011Z] [INFO] → GET /api/projects
+[2026-07-30T16:36:50.013Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:36:54.398Z] [INFO] → PUT /api/projects/2c20b7f8-ddfa-431d-937e-40eb1e4f1e09
+[2026-07-30T16:36:54.402Z] [INFO] ← PUT /2c20b7f8-ddfa-431d-937e-40eb1e4f1e09 200 (4ms)
+[2026-07-30T16:36:54.407Z] [INFO] → GET /api/projects
+[2026-07-30T16:36:54.409Z] [INFO] ← GET / 304 (1ms)
+[2026-07-30T16:36:55.944Z] [INFO] → GET /api/settings
+[2026-07-30T16:36:55.946Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:36:55.947Z] [INFO] → GET /api/providers
+[2026-07-30T16:36:55.950Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:36:57.249Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:36:57.250Z] [INFO] ← GET /docs 200 (2ms)
+[2026-07-30T16:37:02.036Z] [INFO] → GET /api/providers
+[2026-07-30T16:37:02.040Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:37:02.042Z] [INFO] → GET /api/projects
+[2026-07-30T16:37:02.045Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:37:02.944Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:37:02.946Z] [INFO] ← GET /docs 200 (1ms)
+[2026-07-30T16:37:02.948Z] [INFO] → GET /api/rag/folders
+[2026-07-30T16:37:02.951Z] [INFO] ← GET /folders 200 (3ms)
+[2026-07-30T16:37:02.953Z] [INFO] → GET /api/rag/staged
+[2026-07-30T16:37:02.955Z] [INFO] ← GET /staged 200 (2ms)
+[2026-07-30T16:37:02.957Z] [INFO] → GET /api/rag/folders/paths
+[2026-07-30T16:37:02.959Z] [INFO] ← GET /folders/paths 200 (2ms)
+[2026-07-30T16:37:03.392Z] [INFO] → GET /api/settings
+[2026-07-30T16:37:03.394Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:37:03.396Z] [INFO] → GET /api/providers
+[2026-07-30T16:37:03.400Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:37:09.822Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:37:09.824Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:37:09.825Z] [INFO] → GET /api/rag/folders
+[2026-07-30T16:37:09.828Z] [INFO] ← GET /folders 304 (3ms)
+[2026-07-30T16:37:09.830Z] [INFO] → GET /api/rag/folders/paths
+[2026-07-30T16:37:09.832Z] [INFO] ← GET /folders/paths 304 (2ms)
+[2026-07-30T16:37:09.834Z] [INFO] → GET /api/rag/staged
+[2026-07-30T16:37:09.836Z] [INFO] ← GET /staged 304 (2ms)
+[2026-07-30T16:37:20.209Z] [INFO] → GET /api/analytics/advanced
+[2026-07-30T16:37:20.215Z] [INFO] ← GET / 200 (6ms)
+[2026-07-30T16:37:20.217Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-30T16:37:20.222Z] [INFO] ← GET /profile 200 (5ms)
+[2026-07-30T16:37:20.223Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-30T16:37:20.227Z] [INFO] ← GET /recommendations 200 (3ms)
+[2026-07-30T16:37:24.468Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:37:24.470Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:37:24.472Z] [INFO] → GET /api/history
+[2026-07-30T16:37:24.480Z] [INFO] ← GET / 200 (8ms)
+[2026-07-30T16:37:26.802Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:37:26.804Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:37:30.278Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:37:30.279Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:37:30.830Z] [INFO] → GET /api/admin/overview
+[2026-07-30T16:37:30.834Z] [INFO] ← GET /overview 304 (4ms)
+[2026-07-30T16:37:38.930Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:37:38.932Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:37:42.389Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:37:42.391Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:37:42.393Z] [INFO] → GET /api/history
+[2026-07-30T16:37:42.395Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:38:12.709Z] [INFO] → POST /api/history/draft
+[2026-07-30T16:38:12.715Z] [INFO] ← POST /draft 200 (5ms)
+[2026-07-30T16:38:12.733Z] [INFO] → GET /api/history/bb4685db-773e-4093-8004-67a9a0645d4f
+[2026-07-30T16:38:12.735Z] [INFO] ← GET /bb4685db-773e-4093-8004-67a9a0645d4f 200 (2ms)
+[2026-07-30T16:38:12.741Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:38:13.227Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T16:38:13.228Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T16:38:14.746Z] [INFO] → GET /api/history/bb4685db-773e-4093-8004-67a9a0645d4f
+[2026-07-30T16:38:14.748Z] [INFO] ← GET /bb4685db-773e-4093-8004-67a9a0645d4f 304 (2ms)
+[2026-07-30T16:38:16.757Z] [INFO] → GET /api/history/bb4685db-773e-4093-8004-67a9a0645d4f
+[2026-07-30T16:38:16.759Z] [INFO] ← GET /bb4685db-773e-4093-8004-67a9a0645d4f 304 (1ms)
+[2026-07-30T16:38:17.787Z] [INFO] Local embedding model ready
+[2026-07-30T16:38:18.877Z] [INFO] → GET /api/history/bb4685db-773e-4093-8004-67a9a0645d4f
+[2026-07-30T16:38:18.878Z] [INFO] ← GET /bb4685db-773e-4093-8004-67a9a0645d4f 304 (1ms)
+[2026-07-30T16:38:20.891Z] [INFO] → GET /api/history/bb4685db-773e-4093-8004-67a9a0645d4f
+[2026-07-30T16:38:20.892Z] [INFO] ← GET /bb4685db-773e-4093-8004-67a9a0645d4f 304 (1ms)
+[2026-07-30T16:38:22.411Z] [INFO] ✓ Notes(short-notes) validation {
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "sectionCount": 8
+  }
+}
+[2026-07-30T16:38:22.412Z] [INFO] ✅ Notes validation passed for short-notes
+[2026-07-30T16:38:22.417Z] [ACTION] [ACTION] generation.complete | {"draftId":"bb4685db-773e-4093-8004-67a9a0645d4f","type":"notes","subType":"short-notes","scope":"notes"}
+[2026-07-30T16:38:22.419Z] [INFO] ← POST /notes 200 (9678ms)
+[2026-07-30T16:38:22.426Z] [INFO] → GET /api/history/bb4685db-773e-4093-8004-67a9a0645d4f
+[2026-07-30T16:38:22.427Z] [INFO] ← GET /bb4685db-773e-4093-8004-67a9a0645d4f 200 (1ms)
+[2026-07-30T16:38:28.857Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:38:28.858Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:38:28.862Z] [INFO] → GET /api/history
+[2026-07-30T16:38:28.865Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:38:31.612Z] [INFO] → POST /api/history/draft
+[2026-07-30T16:38:31.618Z] [INFO] ← POST /draft 200 (6ms)
+[2026-07-30T16:38:31.636Z] [INFO] → GET /api/history/bc84368b-6aa6-4996-b814-034311f1b41f
+[2026-07-30T16:38:31.638Z] [INFO] ← GET /bc84368b-6aa6-4996-b814-034311f1b41f 200 (2ms)
+[2026-07-30T16:38:31.644Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:38:33.647Z] [INFO] → GET /api/history/bc84368b-6aa6-4996-b814-034311f1b41f
+[2026-07-30T16:38:33.648Z] [INFO] ← GET /bc84368b-6aa6-4996-b814-034311f1b41f 304 (1ms)
+[2026-07-30T16:38:43.654Z] [INFO] → GET /api/history/bc84368b-6aa6-4996-b814-034311f1b41f
+[2026-07-30T16:38:43.655Z] [INFO] ← GET /bc84368b-6aa6-4996-b814-034311f1b41f 304 (1ms)
+[2026-07-30T16:39:17.643Z] [INFO] ✗ Notes(exam-notes) validation {
+  "valid": false,
+  "errors": [
+    "Exam notes too short: 404 words (minimum 800)"
+  ],
+  "warnings": [],
+  "metrics": {
+    "wordCount": 404
+  }
+}
+[2026-07-30T16:39:17.645Z] [ERROR] ❌ Notes validation failed for exam-notes: [
+  "Exam notes too short: 404 words (minimum 800)"
+]
+[2026-07-30T16:39:17.648Z] [ACTION] [ACTION] generation.complete | {"draftId":"bc84368b-6aa6-4996-b814-034311f1b41f","type":"notes","subType":"exam-notes","scope":"notes"}
+[2026-07-30T16:39:17.649Z] [INFO] ← POST /notes 200 (46006ms)
+[2026-07-30T16:39:17.657Z] [INFO] → GET /api/history/bc84368b-6aa6-4996-b814-034311f1b41f
+[2026-07-30T16:39:17.659Z] [INFO] ← GET /bc84368b-6aa6-4996-b814-034311f1b41f 200 (1ms)
+[2026-07-30T16:40:00.870Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:40:00.872Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:40:00.874Z] [INFO] → GET /api/history
+[2026-07-30T16:40:00.876Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:40:05.430Z] [INFO] → GET /api/history/bc84368b-6aa6-4996-b814-034311f1b41f
+[2026-07-30T16:40:05.432Z] [INFO] ← GET /bc84368b-6aa6-4996-b814-034311f1b41f 304 (2ms)
+[2026-07-30T16:40:25.112Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:40:25.113Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:40:25.116Z] [INFO] → GET /api/history
+[2026-07-30T16:40:25.118Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:40:30.385Z] [INFO] → POST /api/history/draft
+[2026-07-30T16:40:30.391Z] [INFO] ← POST /draft 200 (6ms)
+[2026-07-30T16:40:30.462Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:30.464Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 200 (2ms)
+[2026-07-30T16:40:30.471Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:40:32.476Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:32.477Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:34.356Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:40:34.487Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:34.488Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:36.503Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:36.504Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:38.511Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:38.512Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:39.422Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:40:40.526Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:40.527Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:40:42.540Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:42.541Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:44.554Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:44.555Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:46.561Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:46.562Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:48.572Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:48.573Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:50.584Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:50.585Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:52.594Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:52.595Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:54.601Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:54.602Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:56.614Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:56.615Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:40:58.621Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:40:58.622Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (0ms)
+[2026-07-30T16:41:00.628Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:00.630Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:41:02.639Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:02.640Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:04.648Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:04.813Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (165ms)
+[2026-07-30T16:41:06.823Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:06.824Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:07.004Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:41:08.829Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:08.830Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:10.836Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:10.837Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:12.843Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:12.844Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:14.851Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:14.853Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:16.868Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:16.869Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:41:18.878Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:18.879Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:20.885Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:20.886Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:22.893Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:22.894Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:41:24.905Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:24.906Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:26.912Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:26.913Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:28.920Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:28.920Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:30.926Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:30.927Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:32.936Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:32.937Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:41:34.947Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:34.948Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:36.955Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:36.957Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:41:38.962Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:38.963Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:40.975Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:40.975Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:42.982Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:42.982Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:44.989Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:44.991Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:47.002Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:47.003Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:47.608Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:41:49.016Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:49.017Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:51.024Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:51.025Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:53.030Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:53.031Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:55.044Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:55.046Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:57.051Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:57.052Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:41:59.058Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:41:59.059Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:42:01.064Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:01.065Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:42:03.072Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:03.073Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:42:07.084Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:07.085Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:42:12.012Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:42:23.519Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:23.521Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:42:37.795Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:37.796Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:42:51.806Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:51.807Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:42:53.813Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:53.814Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:42:55.827Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:55.827Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:42:57.416Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:42:57.834Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:42:57.837Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:43:00.977Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:43:13.843Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:13.845Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (2ms)
+[2026-07-30T16:43:15.854Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:15.855Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:17.861Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:17.862Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:19.871Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:19.872Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:21.882Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:21.883Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:23.896Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:23.897Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:25.903Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:25.904Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:27.916Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:27.917Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:29.923Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:29.924Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 304 (1ms)
+[2026-07-30T16:43:29.969Z] [INFO] ✗ Notes(5-mark) validation {
+  "valid": false,
+  "errors": [
+    "Question 1: Answer too short: 105 words (minimum 400)",
+    "Question 2: Answer too short: 157 words (minimum 400)",
+    "Question 3: Answer too short: 17 words (minimum 400)",
+    "Question 4: Answer too short: 19 words (minimum 400)",
+    "Question 5: Answer too short: 22 words (minimum 400)",
+    "Question 6: Answer too short: 17 words (minimum 400)",
+    "Question 7: Answer too short: 22 words (minimum 400)"
+  ],
+  "warnings": [
+    "Question 1: Should have at least 3-4 subtopics",
+    "Question 1: Should have at least 2 examples",
+    "Question 1: Should have at least 4 key points",
+    "Question 2: Should have at least 3-4 subtopics",
+    "Question 2: Should have at least 2 examples",
+    "Question 2: Should have at least 4 key points",
+    "Question 5: Should have at least 4 key points",
+    "Question 6: Should have at least 4 key points",
+    "Question 7: Should have at least 4 key points"
+  ],
+  "metrics": {
+    "wordCount": 105
+  }
+}
+[2026-07-30T16:43:29.969Z] [ERROR] ❌ Notes validation failed for 5-mark: [
+  "Question 1: Answer too short: 105 words (minimum 400)",
+  "Question 2: Answer too short: 157 words (minimum 400)",
+  "Question 3: Answer too short: 17 words (minimum 400)",
+  "Question 4: Answer too short: 19 words (minimum 400)",
+  "Question 5: Answer too short: 22 words (minimum 400)",
+  "Question 6: Answer too short: 17 words (minimum 400)",
+  "Question 7: Answer too short: 22 words (minimum 400)"
+]
+[2026-07-30T16:43:29.972Z] [ACTION] [ACTION] generation.complete | {"draftId":"2b6e5965-689a-4c38-8fce-11ea4f593c01","type":"notes","subType":"5-mark","scope":"notes"}
+[2026-07-30T16:43:29.973Z] [INFO] ← POST /notes 200 (179503ms)
+[2026-07-30T16:43:29.980Z] [INFO] → GET /api/history/2b6e5965-689a-4c38-8fce-11ea4f593c01
+[2026-07-30T16:43:29.981Z] [INFO] ← GET /2b6e5965-689a-4c38-8fce-11ea4f593c01 200 (0ms)
+[2026-07-30T16:44:58.934Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:44:58.936Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:44:58.938Z] [INFO] → GET /api/history
+[2026-07-30T16:44:58.941Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:45:01.726Z] [INFO] → POST /api/history/draft
+[2026-07-30T16:45:01.733Z] [INFO] ← POST /draft 200 (7ms)
+[2026-07-30T16:45:01.754Z] [INFO] → GET /api/history/2db6b92c-e6fe-4673-b919-f8739e0fda93
+[2026-07-30T16:45:01.755Z] [INFO] ← GET /2db6b92c-e6fe-4673-b919-f8739e0fda93 200 (1ms)
+[2026-07-30T16:45:01.761Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:45:02.108Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:45:03.767Z] [INFO] → GET /api/history/2db6b92c-e6fe-4673-b919-f8739e0fda93
+[2026-07-30T16:45:03.768Z] [INFO] ← GET /2db6b92c-e6fe-4673-b919-f8739e0fda93 304 (1ms)
+[2026-07-30T16:45:04.714Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:45:04.716Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:45:04.718Z] [INFO] → GET /api/history
+[2026-07-30T16:45:04.720Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T16:45:05.171Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:45:06.604Z] [INFO] → POST /api/history/draft
+[2026-07-30T16:45:06.610Z] [INFO] ← POST /draft 200 (6ms)
+[2026-07-30T16:45:06.626Z] [INFO] → GET /api/history/5ba74017-93e4-466e-82c9-ae09de06374f
+[2026-07-30T16:45:06.627Z] [INFO] ← GET /5ba74017-93e4-466e-82c9-ae09de06374f 200 (1ms)
+[2026-07-30T16:45:06.633Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:45:06.681Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:45:07.744Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:45:08.635Z] [INFO] → GET /api/history/5ba74017-93e4-466e-82c9-ae09de06374f
+[2026-07-30T16:45:08.636Z] [INFO] ← GET /5ba74017-93e4-466e-82c9-ae09de06374f 304 (1ms)
+[2026-07-30T16:45:10.642Z] [INFO] → GET /api/history/5ba74017-93e4-466e-82c9-ae09de06374f
+[2026-07-30T16:45:10.643Z] [INFO] ← GET /5ba74017-93e4-466e-82c9-ae09de06374f 304 (1ms)
+[2026-07-30T16:45:12.650Z] [INFO] → GET /api/history/5ba74017-93e4-466e-82c9-ae09de06374f
+[2026-07-30T16:45:12.651Z] [INFO] ← GET /5ba74017-93e4-466e-82c9-ae09de06374f 304 (1ms)
+[2026-07-30T16:45:14.663Z] [INFO] → GET /api/history/5ba74017-93e4-466e-82c9-ae09de06374f
+[2026-07-30T16:45:14.664Z] [INFO] ← GET /5ba74017-93e4-466e-82c9-ae09de06374f 304 (1ms)
+[2026-07-30T16:45:30.670Z] [INFO] → GET /api/history/5ba74017-93e4-466e-82c9-ae09de06374f
+[2026-07-30T16:45:30.671Z] [INFO] ← GET /5ba74017-93e4-466e-82c9-ae09de06374f 304 (2ms)
+[2026-07-30T16:45:31.121Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:45:31.123Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:45:31.126Z] [INFO] → GET /api/history
+[2026-07-30T16:45:31.129Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T16:45:37.282Z] [INFO] ✗ Notes(exam-notes) validation {
+  "valid": false,
+  "errors": [
+    "Exam notes too short: 290 words (minimum 800)"
+  ],
+  "warnings": [],
+  "metrics": {
+    "wordCount": 290
+  }
+}
+[2026-07-30T16:45:37.283Z] [ERROR] ❌ Notes validation failed for exam-notes: [
+  "Exam notes too short: 290 words (minimum 800)"
+]
+[2026-07-30T16:45:37.287Z] [ACTION] [ACTION] generation.complete | {"draftId":"2db6b92c-e6fe-4673-b919-f8739e0fda93","type":"notes","subType":"exam-notes","scope":"notes"}
+[2026-07-30T16:45:37.289Z] [INFO] ← POST /notes 200 (35528ms)
+[2026-07-30T16:45:49.576Z] [INFO] → POST /api/history/draft
+[2026-07-30T16:45:49.580Z] [INFO] ← POST /draft 200 (3ms)
+[2026-07-30T16:45:49.602Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:45:49.604Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 200 (2ms)
+[2026-07-30T16:45:49.611Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:45:50.304Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:45:51.591Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:45:51.615Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:45:51.616Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:45:55.624Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:45:55.625Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:45:56.093Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:45:57.636Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:45:57.637Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:45:59.645Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:45:59.646Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:46:05.806Z] [INFO] ✗ Notes(exam-notes) validation {
+  "valid": false,
+  "errors": [
+    "Exam notes too short: 425 words (minimum 800)"
+  ],
+  "warnings": [],
+  "metrics": {
+    "wordCount": 425
+  }
+}
+[2026-07-30T16:46:05.807Z] [ERROR] ❌ Notes validation failed for exam-notes: [
+  "Exam notes too short: 425 words (minimum 800)"
+]
+[2026-07-30T16:46:05.811Z] [ACTION] [ACTION] generation.complete | {"draftId":"5ba74017-93e4-466e-82c9-ae09de06374f","type":"notes","subType":"exam-notes","scope":"notes"}
+[2026-07-30T16:46:05.812Z] [INFO] ← POST /notes 200 (59179ms)
+[2026-07-30T16:46:18.368Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:46:42.985Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:46:55.653Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:46:55.654Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:46:58.154Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:47:20.976Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:47:21.666Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:21.667Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (2ms)
+[2026-07-30T16:47:23.675Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:23.676Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:25.685Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:25.686Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:27.695Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:27.696Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:29.708Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:29.709Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:31.715Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:31.716Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:33.724Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:33.725Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:35.263Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:47:35.736Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:35.737Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:37.743Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:37.744Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:39.749Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:39.750Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:41.757Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:41.758Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:43.770Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:43.771Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (0ms)
+[2026-07-30T16:47:45.777Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:45.778Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (0ms)
+[2026-07-30T16:47:47.791Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:47.792Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:49.798Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:49.799Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:51.812Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:51.813Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (0ms)
+[2026-07-30T16:47:53.819Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:53.819Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:55.828Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:55.829Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:57.840Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:57.840Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:47:59.168Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:47:59.854Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:47:59.855Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:01.868Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:01.868Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:03.874Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:03.875Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:05.890Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:05.891Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (2ms)
+[2026-07-30T16:48:07.902Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:07.902Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:09.908Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:09.909Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:11.916Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:11.917Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (2ms)
+[2026-07-30T16:48:13.367Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:48:17.924Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:17.925Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:19.986Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:19.988Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:31.998Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:31.999Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (1ms)
+[2026-07-30T16:48:35.684Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:48:49.137Z] [INFO] ✗ Notes(10-mark) validation {
+  "valid": false,
+  "errors": [
+    "Question 1: Answer too short: 2 words (minimum 800)",
+    "Question 2: Answer too short: 2 words (minimum 800)",
+    "Question 3: Answer too short: 2 words (minimum 800)",
+    "Question 4: Answer too short: 2 words (minimum 800)",
+    "Question 5: Answer too short: 20 words (minimum 800)",
+    "Question 6: Answer too short: 32 words (minimum 800)",
+    "Question 7: Answer too short: 24 words (minimum 800)",
+    "Question 8: Answer too short: 18 words (minimum 800)"
+  ],
+  "warnings": [
+    "Question 1: Missing introduction section",
+    "Question 1: Should have at least 4-6 subtopics",
+    "Question 1: Missing conclusion section",
+    "Question 1: Should have at least 1-2 diagrams",
+    "Question 1: Should have at least 3-4 examples",
+    "Question 1: Should have at least 6-8 key points",
+    "Question 2: Missing introduction section",
+    "Question 2: Should have at least 4-6 subtopics",
+    "Question 2: Missing conclusion section",
+    "Question 2: Should have at least 1-2 diagrams",
+    "Question 2: Should have at least 3-4 examples",
+    "Question 2: Should have at least 6-8 key points",
+    "Question 3: Missing introduction section",
+    "Question 3: Should have at least 4-6 subtopics",
+    "Question 3: Missing conclusion section",
+    "Question 3: Should have at least 1-2 diagrams",
+    "Question 3: Should have at least 3-4 examples",
+    "Question 3: Should have at least 6-8 key points",
+    "Question 4: Missing introduction section",
+    "Question 4: Should have at least 4-6 subtopics",
+    "Question 4: Missing conclusion section",
+    "Question 4: Should have at least 1-2 diagrams",
+    "Question 4: Should have at least 3-4 examples",
+    "Question 4: Should have at least 6-8 key points",
+    "Question 5: Should have at least 3-4 examples",
+    "Question 5: Should have at least 6-8 key points",
+    "Question 6: Should have at least 6-8 key points",
+    "Question 7: Should have at least 4-6 subtopics",
+    "Question 7: Should have at least 3-4 examples",
+    "Question 7: Should have at least 6-8 key points",
+    "Question 8: Should have at least 4-6 subtopics",
+    "Question 8: Should have at least 3-4 examples",
+    "Question 8: Should have at least 6-8 key points"
+  ],
+  "metrics": {
+    "wordCount": 2
+  }
+}
+[2026-07-30T16:48:49.139Z] [ERROR] ❌ Notes validation failed for 10-mark: [
+  "Question 1: Answer too short: 2 words (minimum 800)",
+  "Question 2: Answer too short: 2 words (minimum 800)",
+  "Question 3: Answer too short: 2 words (minimum 800)",
+  "Question 4: Answer too short: 2 words (minimum 800)",
+  "Question 5: Answer too short: 20 words (minimum 800)",
+  "Question 6: Answer too short: 32 words (minimum 800)",
+  "Question 7: Answer too short: 24 words (minimum 800)",
+  "Question 8: Answer too short: 18 words (minimum 800)"
+]
+[2026-07-30T16:48:49.143Z] [ACTION] [ACTION] generation.complete | {"draftId":"9907d5b5-ef86-48db-8888-b55e5bebe960","type":"notes","subType":"10-mark","scope":"notes"}
+[2026-07-30T16:48:49.144Z] [INFO] ← POST /notes 200 (179533ms)
+[2026-07-30T16:48:49.157Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T16:48:49.158Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 200 (1ms)
+[2026-07-30T16:51:02.195Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:51:02.197Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:51:02.200Z] [INFO] → GET /api/history
+[2026-07-30T16:51:02.203Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:51:10.535Z] [INFO] → POST /api/history/draft
+[2026-07-30T16:51:10.542Z] [INFO] ← POST /draft 200 (7ms)
+[2026-07-30T16:51:10.555Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:10.556Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 200 (1ms)
+[2026-07-30T16:51:10.564Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:51:11.045Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:51:12.563Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:12.564Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:12.734Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:51:13.901Z] [WARN] Provider "Groq" key "veng" hit 429 → cooldown 1600ms, failing over to next key
+[2026-07-30T16:51:14.577Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:14.578Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:16.583Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:16.584Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:18.590Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:18.591Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:20.600Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:20.601Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:51:22.611Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:22.612Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:23.417Z] [WARN] ← POST /notes 500 (12853ms)
+[2026-07-30T16:51:24.618Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:24.619Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:26.625Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:26.626Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:28.633Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:28.634Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:30.646Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:30.647Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (0ms)
+[2026-07-30T16:51:52.664Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:52.665Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:51:54.672Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:54.673Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:56.680Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:56.681Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:51:58.687Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:51:58.688Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:00.697Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:00.697Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:02.707Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:02.708Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:04.714Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:04.715Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:06.720Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:06.721Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:08.730Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:08.731Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:52:10.740Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:10.741Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:28.747Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:28.748Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:30.755Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:30.756Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:32.761Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:32.762Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:34.768Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:34.769Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (0ms)
+[2026-07-30T16:52:36.775Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:36.776Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:38.782Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:38.783Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:40.788Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:40.789Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:42.795Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:42.796Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:44.802Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:44.803Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (0ms)
+[2026-07-30T16:52:46.809Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:46.810Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:48.816Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:48.818Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:50.830Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:50.831Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:52.837Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:52.838Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:54.844Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:54.845Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:56.851Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:56.852Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:52:58.866Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:52:58.867Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:00.878Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:00.879Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:02.886Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:02.887Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:04.900Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:04.901Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:06.913Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:06.914Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:08.921Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:08.922Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (0ms)
+[2026-07-30T16:53:10.929Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:10.931Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:53:12.940Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:12.941Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:14.947Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:14.948Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:16.954Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:16.955Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:18.962Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:18.962Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:20.969Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:20.970Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:22.976Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:22.977Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:24.983Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:24.984Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:26.990Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:26.991Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:28.999Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:29.000Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:31.010Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:31.011Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:53:33.021Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:33.022Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:53:35.031Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:35.033Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:37.038Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:37.039Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (0ms)
+[2026-07-30T16:53:39.046Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:39.047Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (1ms)
+[2026-07-30T16:53:49.811Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:49.814Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:53:51.822Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:53:51.823Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:55:26.722Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T16:55:26.722Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T16:55:42.888Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:55:42.897Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (10ms)
+[2026-07-30T16:55:44.737Z] [INFO] → GET /api/history/2465a865-8c21-4790-8c09-83b850f889ce
+[2026-07-30T16:55:44.739Z] [INFO] ← GET /2465a865-8c21-4790-8c09-83b850f889ce 304 (2ms)
+[2026-07-30T16:55:44.786Z] [INFO] → POST /api/study/notes
+[2026-07-30T16:55:45.177Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T16:55:45.179Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T16:55:45.388Z] [INFO] Local embedding model ready
+[2026-07-30T16:55:45.428Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T16:55:46.163Z] [INFO] → GET /api/rag/docs
+[2026-07-30T16:55:46.165Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T16:55:46.168Z] [INFO] → GET /api/history
+[2026-07-30T16:55:46.173Z] [INFO] ← GET / 200 (4ms)
+[2026-07-30T16:55:46.305Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:55:47.174Z] [WARN] Provider "Groq" key "veng" hit 429 → cooldown 1600ms, failing over to next key
+[2026-07-30T16:55:59.577Z] [INFO] → GET /api/providers
+[2026-07-30T16:55:59.581Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T16:55:59.582Z] [INFO] → GET /api/projects
+[2026-07-30T16:55:59.583Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T16:56:00.751Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T16:56:01.932Z] [WARN] Provider "Groq" key "veng" hit 429 → cooldown 1600ms, failing over to next key
+[2026-07-30T16:58:03.401Z] [INFO] → GET /api/settings
+[2026-07-30T16:58:03.404Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T16:58:03.405Z] [INFO] → GET /api/providers
+[2026-07-30T16:58:03.411Z] [INFO] ← GET / 200 (5ms)
+[2026-07-30T16:58:15.674Z] [WARN] ← POST /notes 500 (150888ms)
+[2026-07-30T16:58:15.991Z] [INFO] → GET /api/providers
+[2026-07-30T16:58:15.995Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T16:58:15.996Z] [INFO] → GET /api/projects
+[2026-07-30T16:58:15.997Z] [INFO] ← GET / 304 (1ms)
+[2026-07-30T17:00:07.573Z] [INFO] → GET /api/settings
+[2026-07-30T17:00:07.575Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T17:00:07.578Z] [INFO] → GET /api/providers
+[2026-07-30T17:00:07.581Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T17:19:58.938Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:19:58.939Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:19:59.073Z] [INFO] → GET /api/rag/docs
+[2026-07-30T17:19:59.550Z] [INFO] ← GET /docs 304 (477ms)
+[2026-07-30T17:19:59.553Z] [INFO] → GET /api/history
+[2026-07-30T17:19:59.558Z] [INFO] ← GET / 304 (5ms)
+[2026-07-30T17:20:05.097Z] [INFO] → POST /api/history/draft
+[2026-07-30T17:20:05.106Z] [INFO] ← POST /draft 200 (10ms)
+[2026-07-30T17:20:05.498Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:05.500Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 200 (2ms)
+[2026-07-30T17:20:05.517Z] [INFO] → POST /api/study/notes
+[2026-07-30T17:20:05.549Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:05.551Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:05.944Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T17:20:05.946Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T17:20:06.240Z] [INFO] Local embedding model ready
+[2026-07-30T17:20:06.282Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T17:20:07.137Z] [WARN] Provider "Groq" key "dark" hit 429 → cooldown 800ms, failing over to next key
+[2026-07-30T17:20:07.558Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:07.560Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:07.997Z] [WARN] Provider "Groq" key "veng" hit 429 → cooldown 1600ms, failing over to next key
+[2026-07-30T17:20:09.601Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:09.603Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:11.610Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:11.612Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:13.620Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:13.621Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:15.634Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:15.636Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:16.617Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:20:16.617Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:20:17.648Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:17.654Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (7ms)
+[2026-07-30T17:20:19.667Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:19.668Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:21.680Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:21.681Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:23.694Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:23.695Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:25.701Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:25.702Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:27.591Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:20:27.592Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:20:27.712Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:27.717Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (6ms)
+[2026-07-30T17:20:29.730Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:29.731Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:31.739Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:31.741Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:33.750Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:33.751Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:35.757Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:35.758Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:37.775Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:37.776Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:39.784Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:39.785Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:45.044Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:45.046Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:47.614Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:47.616Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:49.361Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:20:49.362Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:20:49.625Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:49.630Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (6ms)
+[2026-07-30T17:20:51.639Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:51.641Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:53.651Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:53.653Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:55.660Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:55.662Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:20:57.671Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:57.672Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:20:59.679Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:20:59.680Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:01.688Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:01.689Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:03.688Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:21:03.689Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:21:03.707Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:03.712Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (5ms)
+[2026-07-30T17:21:05.719Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:05.721Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:13.728Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:13.729Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:15.735Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:15.737Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:17.747Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:17.748Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:19.758Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:19.759Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:21:23.784Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:23.785Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:21:27.792Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:27.793Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:29.805Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:29.807Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:21:31.819Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:31.821Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:21:33.828Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:33.829Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:35.838Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:35.839Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:37.845Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:37.846Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:39.965Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:39.967Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (2ms)
+[2026-07-30T17:21:41.977Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:41.979Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:43.990Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:43.991Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:45.998Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:45.999Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:21:48.004Z] [INFO] → GET /api/history/27e3a12c-8815-432a-b74f-192e449eff5f
+[2026-07-30T17:21:48.005Z] [INFO] ← GET /27e3a12c-8815-432a-b74f-192e449eff5f 304 (1ms)
+[2026-07-30T17:22:02.488Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:22:02.489Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:22:22.618Z] [INFO] → GET /api/progress
+[2026-07-30T17:22:22.625Z] [INFO] ← GET / 304 (7ms)
+[2026-07-30T17:22:22.629Z] [INFO] → GET /api/projects
+[2026-07-30T17:22:22.631Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T17:22:22.633Z] [INFO] → GET /api/providers
+[2026-07-30T17:22:22.639Z] [INFO] ← GET / 200 (6ms)
+[2026-07-30T17:22:22.641Z] [INFO] → GET /api/analytics
+[2026-07-30T17:22:31.856Z] [INFO] ← GET / 304 (9215ms)
+[2026-07-30T17:23:58.239Z] [INFO] → GET /api/providers
+[2026-07-30T17:23:58.244Z] [INFO] ← GET / 200 (6ms)
+[2026-07-30T17:23:58.246Z] [INFO] → GET /api/projects
+[2026-07-30T17:23:58.248Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T17:24:54.420Z] [INFO] → GET /api/settings
+[2026-07-30T17:24:54.445Z] [INFO] ← GET / 200 (25ms)
+[2026-07-30T17:24:54.448Z] [INFO] → GET /api/providers
+[2026-07-30T17:24:54.451Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T17:27:18.132Z] [INFO] → GET /api/progress
+[2026-07-30T17:27:18.136Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T17:27:18.139Z] [INFO] → GET /api/projects
+[2026-07-30T17:27:18.141Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T17:27:18.143Z] [INFO] → GET /api/providers
+[2026-07-30T17:27:18.147Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T17:27:18.149Z] [INFO] → GET /api/analytics
+[2026-07-30T17:27:18.152Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T17:27:20.478Z] [INFO] → GET /api/rag/docs
+[2026-07-30T17:27:20.480Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T17:27:21.320Z] [INFO] → GET /api/rag/docs
+[2026-07-30T17:27:21.321Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T17:27:21.325Z] [INFO] → GET /api/history
+[2026-07-30T17:27:21.335Z] [INFO] ← GET / 200 (10ms)
+[2026-07-30T17:27:24.844Z] [INFO] → POST /api/history/draft
+[2026-07-30T17:27:24.852Z] [INFO] ← POST /draft 200 (8ms)
+[2026-07-30T17:27:24.869Z] [INFO] → GET /api/history/8661d89e-727e-42c2-b05c-cd72124d92cb
+[2026-07-30T17:27:24.871Z] [INFO] ← GET /8661d89e-727e-42c2-b05c-cd72124d92cb 200 (2ms)
+[2026-07-30T17:27:24.880Z] [INFO] → POST /api/study/notes
+[2026-07-30T17:27:25.306Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T17:27:25.307Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T17:27:25.596Z] [INFO] Local embedding model ready
+[2026-07-30T17:27:25.649Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T17:27:26.061Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T17:27:26.065Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T17:27:26.938Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T17:27:26.943Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T17:27:45.297Z] [INFO] ✓ Notes(one-page) validation {
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "wordCount": 1104
+  }
+}
+[2026-07-30T17:27:45.298Z] [INFO] ✅ Notes validation passed for one-page
+[2026-07-30T17:27:45.304Z] [ACTION] [ACTION] generation.complete | {"draftId":"8661d89e-727e-42c2-b05c-cd72124d92cb","type":"notes","subType":"one-page","scope":"notes"}
+[2026-07-30T17:27:45.306Z] [INFO] ← POST /notes 200 (20427ms)
+[2026-07-30T17:27:45.314Z] [INFO] → GET /api/history/8661d89e-727e-42c2-b05c-cd72124d92cb
+[2026-07-30T17:27:45.316Z] [INFO] ← GET /8661d89e-727e-42c2-b05c-cd72124d92cb 200 (1ms)
+[2026-07-30T17:32:45.332Z] [INFO] → GET /api/rag/docs
+[2026-07-30T17:32:45.335Z] [INFO] ← GET /docs 304 (3ms)
+[2026-07-30T17:32:45.337Z] [INFO] → GET /api/history
+[2026-07-30T17:32:45.341Z] [INFO] ← GET / 200 (4ms)
+[2026-07-30T17:32:49.044Z] [INFO] → POST /api/history/draft
+[2026-07-30T17:32:49.049Z] [INFO] ← POST /draft 200 (4ms)
+[2026-07-30T17:32:49.063Z] [INFO] → GET /api/history/bbafabf6-b653-47f6-b6d8-cac899a1d419
+[2026-07-30T17:32:49.065Z] [INFO] ← GET /bbafabf6-b653-47f6-b6d8-cac899a1d419 200 (2ms)
+[2026-07-30T17:32:49.073Z] [INFO] → POST /api/study/notes
+[2026-07-30T17:32:49.916Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T17:32:49.920Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T17:32:50.793Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T17:32:50.797Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T17:32:51.076Z] [INFO] → GET /api/history/bbafabf6-b653-47f6-b6d8-cac899a1d419
+[2026-07-30T17:32:51.078Z] [INFO] ← GET /bbafabf6-b653-47f6-b6d8-cac899a1d419 304 (3ms)
+[2026-07-30T17:32:53.084Z] [INFO] → GET /api/history/bbafabf6-b653-47f6-b6d8-cac899a1d419
+[2026-07-30T17:32:53.085Z] [INFO] ← GET /bbafabf6-b653-47f6-b6d8-cac899a1d419 304 (1ms)
+[2026-07-30T17:32:54.038Z] [INFO] → GET /api/providers
+[2026-07-30T17:32:54.041Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T17:32:54.042Z] [INFO] → GET /api/projects
+[2026-07-30T17:32:54.044Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T17:32:56.355Z] [INFO] → GET /api/providers
+[2026-07-30T17:32:56.358Z] [INFO] ← GET / 304 (4ms)
+[2026-07-30T17:32:56.360Z] [INFO] → GET /api/settings
+[2026-07-30T17:32:56.362Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T17:33:13.458Z] [INFO] → GET /api/providers
+[2026-07-30T17:33:13.462Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T17:33:13.463Z] [INFO] → GET /api/projects
+[2026-07-30T17:33:13.465Z] [INFO] ← GET / 304 (1ms)
+[2026-07-30T17:33:14.156Z] [INFO] ✓ Notes(viva-questions) validation {
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "questionCount": 10
+  }
+}
+[2026-07-30T17:33:14.157Z] [INFO] ✅ Notes validation passed for viva-questions
+[2026-07-30T17:33:14.163Z] [ACTION] [ACTION] generation.complete | {"draftId":"bbafabf6-b653-47f6-b6d8-cac899a1d419","type":"notes","subType":"viva-questions","scope":"notes"}
+[2026-07-30T17:33:14.165Z] [INFO] ← POST /notes 200 (25092ms)
+[2026-07-30T17:33:15.125Z] [INFO] → GET /api/rag/docs
+[2026-07-30T17:33:15.127Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T17:33:15.998Z] [INFO] → GET /api/rag/docs
+[2026-07-30T17:33:16.000Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-30T17:33:16.003Z] [INFO] → GET /api/history
+[2026-07-30T17:33:16.006Z] [INFO] ← GET / 200 (3ms)
+[2026-07-30T17:33:18.544Z] [INFO] → GET /api/history/bbafabf6-b653-47f6-b6d8-cac899a1d419
+[2026-07-30T17:33:18.546Z] [INFO] ← GET /bbafabf6-b653-47f6-b6d8-cac899a1d419 200 (2ms)
+[2026-07-30T17:33:18.549Z] [INFO] → POST /api/study/notes
+[2026-07-30T17:33:19.286Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T17:33:19.290Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T17:33:20.182Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T17:33:20.185Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T17:33:33.567Z] [INFO] ✓ Notes(viva-questions) validation {
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    "Viva 6 answer too long: 201 words (recommended 80-150)"
+  ],
+  "metrics": {
+    "questionCount": 9
+  }
+}
+[2026-07-30T17:33:33.568Z] [WARN] ⚠️  Notes validation passed with warnings for viva-questions: [
+  "Viva 6 answer too long: 201 words (recommended 80-150)"
+]
+[2026-07-30T17:33:33.571Z] [ACTION] [ACTION] generation.complete | {"draftId":"bbafabf6-b653-47f6-b6d8-cac899a1d419","type":"notes","subType":"viva-questions","scope":"notes"}
+[2026-07-30T17:33:33.573Z] [INFO] ← POST /notes 200 (15024ms)
+[2026-07-30T17:33:33.580Z] [INFO] → GET /api/history/bbafabf6-b653-47f6-b6d8-cac899a1d419
+[2026-07-30T17:33:33.581Z] [INFO] ← GET /bbafabf6-b653-47f6-b6d8-cac899a1d419 200 (2ms)
+[2026-07-30T17:43:06.564Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:43:06.565Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:43:25.500Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:43:25.500Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:43:37.888Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:43:37.889Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:43:47.355Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T17:43:47.355Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T17:48:29.380Z] [INFO] → GET /api/rag/docs
+[2026-07-30T17:48:29.860Z] [INFO] ← GET /docs 304 (480ms)
+[2026-07-30T17:48:29.865Z] [INFO] → GET /api/history
+[2026-07-30T17:48:29.871Z] [INFO] ← GET / 200 (8ms)
+[2026-07-30T17:48:40.026Z] [INFO] → GET /api/history/9907d5b5-ef86-48db-8888-b55e5bebe960
+[2026-07-30T17:48:40.029Z] [INFO] ← GET /9907d5b5-ef86-48db-8888-b55e5bebe960 304 (3ms)
+[2026-07-30T18:03:49.759Z] [INFO] → GET /api/progress
+[2026-07-30T18:03:49.763Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T18:03:49.766Z] [INFO] → GET /api/projects
+[2026-07-30T18:03:49.768Z] [INFO] ← GET / 304 (2ms)
+[2026-07-30T18:03:49.769Z] [INFO] → GET /api/providers
+[2026-07-30T18:03:49.772Z] [INFO] ← GET / 200 (2ms)
+[2026-07-30T18:03:49.773Z] [INFO] → GET /api/analytics
+[2026-07-30T18:03:49.776Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T18:03:52.375Z] [INFO] → GET /api/rag/docs
+[2026-07-30T18:03:52.376Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-30T18:24:00.877Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:24:00.877Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:24:09.235Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:24:09.235Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:24:30.158Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:24:30.158Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:24:42.366Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:24:42.367Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:24:56.182Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:24:56.182Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:25:00.329Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:25:00.329Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:25:10.680Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:25:10.681Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:25:18.680Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:25:18.681Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:25:28.834Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:25:28.834Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:25:37.846Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:25:37.847Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:26:07.459Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:26:07.460Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:26:15.356Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:26:15.357Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:26:21.715Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:26:21.716Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:26:28.751Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:26:28.752Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:26:36.153Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:26:36.154Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:27:46.435Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:27:46.436Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:28:24.094Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:28:24.094Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:28:24.094Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:28:24.095Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:28:32.199Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:28:32.199Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:28:32.200Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:28:32.200Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:29:13.923Z] [INFO] → GET /api/rag/docs
+[2026-07-30T18:29:14.387Z] [INFO] ← GET /docs 200 (464ms)
+[2026-07-30T18:29:14.391Z] [INFO] → GET /api/history
+[2026-07-30T18:29:14.399Z] [INFO] ← GET / 200 (8ms)
+[2026-07-30T18:29:14.402Z] [INFO] → GET /api/providers
+[2026-07-30T18:29:14.407Z] [INFO] ← GET / 200 (5ms)
+[2026-07-30T18:30:52.063Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:30:52.063Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:30:52.064Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:30:52.064Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:31:07.676Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:31:07.677Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:31:07.694Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:31:07.695Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:31:40.250Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:31:40.250Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:31:40.251Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:31:40.251Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:32:23.462Z] [INFO] → GET /api/history
+[2026-07-30T18:32:23.469Z] [INFO] ← GET / 200 (7ms)
+[2026-07-30T18:32:44.134Z] [INFO] → GET /api/history/draft
+[2026-07-30T18:32:44.139Z] [WARN] ← GET /draft 404 (5ms)
+[2026-07-30T18:32:53.545Z] [INFO] → POST /api/study/notes
+[2026-07-30T18:32:53.999Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-30T18:32:54.000Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-30T18:32:54.170Z] [INFO] Local embedding model ready
+[2026-07-30T18:32:54.221Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-30T18:32:58.527Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:32:58.529Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:32:59.400Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:32:59.402Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:33:07.820Z] [WARN] [Notes] 10-mark Q"Explain the concept of machine learning in artific..." answer too short (474/800 words), retrying...
+[2026-07-30T18:33:07.903Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:07.906Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:33:08.772Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:08.774Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:33:21.064Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:21.067Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:33:21.952Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:21.956Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:33:25.606Z] [WARN] [Notes] 10-mark Q"Explain the concept of machine learning in artific..." answer too short (0/800 words), retrying...
+[2026-07-30T18:33:25.672Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:25.674Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:33:29.720Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:29.722Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:33:30.588Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:30.591Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:33:37.296Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:37.298Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:33:38.164Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:38.167Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:33:54.194Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:54.198Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:33:55.064Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:33:55.068Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:34:07.816Z] [INFO] → GET /api/history
+[2026-07-30T18:34:07.819Z] [INFO] ← GET / 304 (3ms)
+[2026-07-30T18:34:12.627Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:34:12.629Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:34:13.492Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:34:13.494Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:34:27.611Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:34:27.614Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:34:28.478Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:34:28.482Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:34:45.866Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:34:45.868Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:34:46.734Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:34:46.735Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:35:03.008Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:35:03.010Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:35:03.878Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:35:03.880Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:35:19.162Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:35:19.165Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:35:20.025Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:35:20.027Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:36:01.419Z] [WARN] [Notes] 10-mark Q"Explain how data structures and algorithms form th..." answer too short (437/800 words), retrying...
+[2026-07-30T18:36:05.333Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:05.335Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:36:06.199Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:06.201Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:36:32.311Z] [WARN] [Notes] 10-mark Q"Explain how data structures and algorithms form th..." answer too short (0/800 words), retrying...
+[2026-07-30T18:36:32.433Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:32.435Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:36:33.315Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:33.317Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:36:47.530Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:47.532Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:36:48.390Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:48.393Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:36:54.073Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:54.075Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:36:54.932Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:36:54.934Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:37:10.878Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:10.880Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:37:11.770Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:11.773Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:37:26.452Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:26.455Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:37:27.304Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:27.306Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:37:31.721Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:31.725Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:37:32.585Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:32.587Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:37:45.925Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:45.928Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:37:46.780Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:37:46.784Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:38:00.474Z] [WARN] Provider "Groq" key "veng" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:38:00.476Z] [WARN] Provider "Groq" key "veng" exhausted all models with 429 → cooldown 800ms
+[2026-07-30T18:38:01.346Z] [WARN] Provider "Groq" key "dark" + model "llama-3.3-70b-versatile" hit 429 → trying next model
+[2026-07-30T18:38:01.348Z] [WARN] Provider "Groq" key "dark" exhausted all models with 429 → cooldown 1600ms
+[2026-07-30T18:38:15.540Z] [INFO] ✗ Notes(10-mark) validation {
+  "valid": false,
+  "errors": [
+    "Question 1: Missing answer",
+    "Question 4: Missing answer"
+  ],
+  "warnings": [
+    "Question 1: Missing introduction section",
+    "Question 1: Should have at least 4-6 subtopics",
+    "Question 1: Missing conclusion section",
+    "Question 1: Should have at least 1-2 diagrams",
+    "Question 1: Should have at least 3-4 examples",
+    "Question 1: Should have at least 6-8 key points",
+    "Question 2: Missing introduction section",
+    "Question 2: Should have at least 4-6 subtopics",
+    "Question 2: Missing conclusion section",
+    "Question 2: Should have at least 1-2 diagrams",
+    "Question 2: Should have at least 3-4 examples",
+    "Question 2: Should have at least 6-8 key points",
+    "Question 3: Answer very long: 1550 words (recommended 800-1200)",
+    "Question 3: Missing introduction section",
+    "Question 3: Should have at least 4-6 subtopics",
+    "Question 3: Missing conclusion section",
+    "Question 3: Should have at least 1-2 diagrams",
+    "Question 3: Should have at least 3-4 examples",
+    "Question 3: Should have at least 6-8 key points",
+    "Question 4: Missing introduction section",
+    "Question 4: Should have at least 4-6 subtopics",
+    "Question 4: Missing conclusion section",
+    "Question 4: Should have at least 1-2 diagrams",
+    "Question 4: Should have at least 3-4 examples",
+    "Question 4: Should have at least 6-8 key points",
+    "Question 5: Answer very long: 2292 words (recommended 800-1200)",
+    "Question 5: Missing conclusion section",
+    "Question 5: Should have at least 1-2 diagrams",
+    "Question 5: Should have at least 3-4 examples",
+    "Question 5: Should have at least 6-8 key points",
+    "Question 6: Answer very long: 1752 words (recommended 800-1200)",
+    "Question 6: Missing conclusion section",
+    "Question 6: Should have at least 1-2 diagrams",
+    "Question 6: Should have at least 3-4 examples",
+    "Question 6: Should have at least 6-8 key points"
+  ],
+  "metrics": {
+    "wordCount": 0
+  }
+}
+[2026-07-30T18:38:15.541Z] [ERROR] ❌ Notes validation failed for 10-mark: [
+  "Question 1: Missing answer",
+  "Question 4: Missing answer"
+]
+[2026-07-30T18:38:15.544Z] [ACTION] [ACTION] generation.create | {"historyId":"5ab75de5-6086-486c-8cf2-5d940cea2859","type":"notes","subType":"10-mark","scope":"notes"}
+[2026-07-30T18:57:35.947Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:57:35.948Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:57:35.948Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:57:35.948Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:57:37.192Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:57:37.193Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:57:37.193Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:57:37.194Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:57:52.783Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:57:52.784Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:57:52.788Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:57:52.789Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:57:56.007Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:57:56.007Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:57:56.008Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:57:56.008Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:58:36.167Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:58:36.168Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:58:36.168Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:58:36.169Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:58:46.499Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:58:46.498Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:58:46.499Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:58:46.499Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:14.917Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:59:14.918Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:14.922Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:59:14.922Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:46.200Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:59:46.199Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:59:46.201Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:46.199Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:52.549Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:59:52.550Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:52.560Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:59:52.561Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:53.909Z] [INFO] [Boot] Purged 75 retired feature item(s) from history
+[2026-07-30T18:59:53.909Z] [INFO] [Boot] Purged 75 retired feature item(s) from history
+[2026-07-30T18:59:53.911Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T18:59:53.912Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T18:59:53.915Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T18:59:53.916Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:07.682Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:00:07.683Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:07.683Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:00:07.684Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:09.811Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:00:09.812Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:09.815Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:00:09.816Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:22.164Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:00:22.164Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:00:22.165Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:22.165Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:42.957Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:00:42.957Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:00:42.958Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:42.959Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:54.264Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:00:54.264Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:54.271Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:00:54.272Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:56.665Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:00:56.665Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:00:56.677Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:00:56.677Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:01:23.153Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:01:23.154Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:03:31.614Z] [INFO] StudyForge server listening on http://localhost:5176
+[2026-07-30T19:03:31.615Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:03:37.516Z] [INFO] → GET /api/health
+[2026-07-30T19:03:37.519Z] [INFO] ← GET /api/health 200 (3ms)
+[2026-07-30T19:20:40.570Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:20:40.570Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:20:40.571Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:20:40.571Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:20:50.469Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:20:50.469Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:20:50.475Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:20:50.476Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:00.014Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:21:00.015Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:00.016Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:21:00.017Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:10.751Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:21:10.748Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:21:10.752Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:10.749Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:42.642Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:21:42.643Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:42.648Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:21:42.648Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:55.265Z] [INFO] StudyForge server listening on http://localhost:5175
+[2026-07-30T19:21:55.266Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-30T19:21:55.266Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-30T19:21:55.267Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)

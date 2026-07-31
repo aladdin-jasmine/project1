@@ -1,0 +1,22 @@
+[
+  {
+    "id": "2c20b7f8-ddfa-431d-937e-40eb1e4f1e09",
+    "name": "My Study Project",
+    "kbId": "default",
+    "createdAt": "2026-07-28T08:17:41.017Z",
+    "providerId": "fac7fd53-2675-4e3b-84df-ca4649bcd3cd",
+    "defaultModel": "llama-3.3-70b-versatile"
+  },
+  {
+    "id": "6df8dc58-db52-4b2a-93c6-0a7440f35bb2",
+    "name": "E2E Test Project",
+    "kbId": "9fff45a3",
+    "createdAt": "2026-07-28T08:30:17.871Z"
+  },
+  {
+    "id": "20578d7a-6d5c-4d1a-992f-5ad7dc719752",
+    "name": "E2E Test Project",
+    "kbId": "f21eaf82",
+    "createdAt": "2026-07-28T09:22:02.041Z"
+  }
+]

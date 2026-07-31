@@ -1,0 +1,25 @@
+# StudyForge optional infrastructure.
+# Run with:  docker compose up -d
+# The app auto-detects these services and gracefully falls back to local
+# storage if they are not running — so this file is OPTIONAL.
+services:
+  postgres:
+    image: ankane/pgvector:v0.5.1
+    container_name: studyforge-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: studyforge
+      POSTGRES_PASSWORD: studyforge
+      POSTGRES_DB: studyforge
+    ports:
+      - "5432:5432"
+    volumes:
+      - studyforge_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U studyforge"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  studyforge_pg:

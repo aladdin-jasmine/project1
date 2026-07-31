@@ -1,0 +1,5439 @@
+[
+  {
+    "id": "fac7fd53-2675-4e3b-84df-ca4649bcd3cd",
+    "name": "Groq",
+    "format": "openai",
+    "baseUrl": "https://api.groq.com/openai/v1",
+    "keys": [
+      {
+        "id": "ec617894-8850-4015-ad06-5a9854de727a",
+        "label": "dark",
+        "key": "gsk_xxxxxxxxxxxxxxxxxxxxxxxx",
+        "enabled": true,
+        "cooldownUntil": 1785507281178
+      },
+      {
+        "id": "b1aba4f3-a2e5-4455-8603-036da21a444c",
+        "label": "veng",
+        "key": "gsk_xxxxxxxxxxxxxxxxxxxxxxxx",
+        "enabled": true
+      }
+    ],
+    "enabled": true,
+    "models": [
+      {
+        "id": "llama-3.3-70b-versatile",
+        "name": "Llama 3.3 70B Versatile",
+        "capabilities": [
+          "text",
+          "reasoning"
+        ],
+        "contextWindow": 128000,
+        "maxTokens": 32768,
+        "enabled": true,
+        "metadata": {
+          "speed": "fast",
+          "quality": "high",
+          "vendor": "Meta",
+          "description": "Most capable Llama model for complex tasks"
+        }
+      },
+      {
+        "id": "allam-2-7b",
+        "name": "allam-2-7b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "meta-llama/llama-prompt-guard-2-22m",
+        "name": "meta-llama/llama-prompt-guard-2-22m",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "openai/gpt-oss-120b",
+        "name": "openai/gpt-oss-120b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "openai/gpt-oss-safeguard-20b",
+        "name": "openai/gpt-oss-safeguard-20b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "openai/gpt-oss-20b",
+        "name": "openai/gpt-oss-20b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "qwen/qwen3.6-27b",
+        "name": "qwen/qwen3.6-27b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "llama-3.1-8b-instant",
+        "name": "Llama 3.1 8B Instant",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 128000,
+        "maxTokens": 8192,
+        "enabled": true,
+        "metadata": {
+          "speed": "fast",
+          "quality": "medium",
+          "vendor": "Meta",
+          "description": "Fastest model for simple tasks"
+        }
+      },
+      {
+        "id": "groq/compound-mini",
+        "name": "groq/compound-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "meta-llama/llama-prompt-guard-2-86m",
+        "name": "meta-llama/llama-prompt-guard-2-86m",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "groq/compound",
+        "name": "groq/compound",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "canopylabs/orpheus-arabic-saudi",
+        "name": "canopylabs/orpheus-arabic-saudi",
+        "capabilities": [
+          "voice-tts"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Groq"
+        }
+      },
+      {
+        "id": "whisper-large-v3",
+        "name": "Whisper Large V3",
+        "capabilities": [
+          "voice-stt"
+        ],
+        "contextWindow": 0,
+        "maxTokens": 0,
+        "enabled": true,
+        "metadata": {
+          "speed": "fast",
+          "quality": "high",
+          "vendor": "OpenAI",
+          "description": "High-accuracy speech recognition"
+        }
+      },
+      {
+        "id": "whisper-large-v3-turbo",
+        "name": "Whisper Large V3 Turbo",
+        "capabilities": [
+          "voice-stt"
+        ],
+        "contextWindow": 0,
+        "maxTokens": 0,
+        "enabled": true,
+        "metadata": {
+          "speed": "fast",
+          "quality": "high",
+          "vendor": "OpenAI",
+          "description": "Fastest speech recognition"
+        }
+      },
+      {
+        "id": "canopylabs/orpheus-v1-english",
+        "name": "Orpheus English",
+        "capabilities": [
+          "voice-tts"
+        ],
+        "contextWindow": 0,
+        "maxTokens": 0,
+        "enabled": true,
+        "metadata": {
+          "speed": "fast",
+          "quality": "high",
+          "vendor": "Canopy Labs",
+          "description": "Natural English speech synthesis"
+        }
+      }
+    ],
+    "priority": 0,
+    "createdAt": "2026-07-28T08:39:21.768Z",
+    "loadBalancing": {
+      "enabled": false,
+      "strategy": "round-robin",
+      "keyRotation": true
+    },
+    "defaultModel": "llama-3.3-70b-versatile"
+  },
+  {
+    "id": "674abb56-2cf0-4a48-8d22-6c6f5a36d1ec",
+    "name": "Openrouter",
+    "format": "openai",
+    "baseUrl": "https://openrouter.ai/api/v1",
+    "keys": [
+      {
+        "id": "f1bb3d00-da85-423e-8c5b-5b64d08a8990",
+        "label": "primary",
+        "key": "sk-or-v1-8xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "enabled": true
+      }
+    ],
+    "enabled": true,
+    "models": [
+      {
+        "id": "openai/gpt-4o-2024-11-20",
+        "name": "openai/gpt-4o-2024-11-20",
+        "capabilities": [
+          "vision",
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4o-2024-08-06",
+        "name": "openai/gpt-4o-2024-08-06",
+        "capabilities": [
+          "vision",
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4o-mini",
+        "name": "openai/gpt-4o-mini",
+        "capabilities": [
+          "vision",
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4o-mini-2024-07-18",
+        "name": "openai/gpt-4o-mini-2024-07-18",
+        "capabilities": [
+          "vision",
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4o",
+        "name": "openai/gpt-4o",
+        "capabilities": [
+          "vision",
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4o-2024-05-13",
+        "name": "openai/gpt-4o-2024-05-13",
+        "capabilities": [
+          "vision",
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-5-fast",
+        "name": "anthropic/claude-opus-5-fast",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-5",
+        "name": "anthropic/claude-opus-5",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4.8-fast",
+        "name": "anthropic/claude-opus-4.8-fast",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4.8",
+        "name": "anthropic/claude-opus-4.8",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4.7-fast",
+        "name": "anthropic/claude-opus-4.7-fast",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~anthropic/claude-opus-latest",
+        "name": "~anthropic/claude-opus-latest",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4.7",
+        "name": "anthropic/claude-opus-4.7",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4.6",
+        "name": "anthropic/claude-opus-4.6",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4.5",
+        "name": "anthropic/claude-opus-4.5",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4.1",
+        "name": "anthropic/claude-opus-4.1",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-opus-4",
+        "name": "anthropic/claude-opus-4",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4.1",
+        "name": "openai/gpt-4.1",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4.1-mini",
+        "name": "openai/gpt-4.1-mini",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4.1-nano",
+        "name": "openai/gpt-4.1-nano",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-r1-distill-llama-70b",
+        "name": "deepseek/deepseek-r1-distill-llama-70b",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-3.3-70b-instruct",
+        "name": "meta-llama/llama-3.3-70b-instruct",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nousresearch/hermes-3-llama-3.1-70b",
+        "name": "nousresearch/hermes-3-llama-3.1-70b",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-3.1-70b-instruct",
+        "name": "meta-llama/llama-3.1-70b-instruct",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4-turbo",
+        "name": "openai/gpt-4-turbo",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-3-haiku",
+        "name": "anthropic/claude-3-haiku",
+        "capabilities": [
+          "vision",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4-turbo-preview",
+        "name": "openai/gpt-4-turbo-preview",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-4",
+        "name": "openai/gpt-4",
+        "capabilities": [
+          "reasoning",
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.7-flash",
+        "name": "qwen/qwen3.7-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "inclusionai/ling-3.0-flash:free",
+        "name": "inclusionai/ling-3.0-flash:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "poolside/laguna-s-2.1",
+        "name": "poolside/laguna-s-2.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "poolside/laguna-s-2.1:free",
+        "name": "poolside/laguna-s-2.1:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.6-flash",
+        "name": "google/gemini-3.6-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.5-flash-lite",
+        "name": "google/gemini-3.5-flash-lite",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meituan/longcat-2.0",
+        "name": "meituan/longcat-2.0",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "thinkingmachines/inkling",
+        "name": "thinkingmachines/inkling",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openrouter/auto-beta",
+        "name": "openrouter/auto-beta",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "moonshotai/kimi-k3",
+        "name": "moonshotai/kimi-k3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta/muse-spark-1.1",
+        "name": "meta/muse-spark-1.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "kwaipilot/kat-coder-air-v2.5",
+        "name": "kwaipilot/kat-coder-air-v2.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "kwaipilot/kat-coder-pro-v2.5",
+        "name": "kwaipilot/kat-coder-pro-v2.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.6-luna-pro",
+        "name": "openai/gpt-5.6-luna-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.6-luna",
+        "name": "openai/gpt-5.6-luna",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.6-terra-pro",
+        "name": "openai/gpt-5.6-terra-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.6-terra",
+        "name": "openai/gpt-5.6-terra",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.6-sol-pro",
+        "name": "openai/gpt-5.6-sol-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.6-sol",
+        "name": "openai/gpt-5.6-sol",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "x-ai/grok-4.5",
+        "name": "x-ai/grok-4.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~x-ai/grok-latest",
+        "name": "~x-ai/grok-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "aion-labs/aion-3.0-mini",
+        "name": "aion-labs/aion-3.0-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "aion-labs/aion-3.0",
+        "name": "aion-labs/aion-3.0",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "tencent/hy3",
+        "name": "tencent/hy3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "poolside/laguna-xs-2.1",
+        "name": "poolside/laguna-xs-2.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "poolside/laguna-xs-2.1:free",
+        "name": "poolside/laguna-xs-2.1:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-sonnet-5",
+        "name": "anthropic/claude-sonnet-5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite-image",
+        "name": "google/gemini-3.1-flash-lite-image",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nex-agi/nex-n2-mini",
+        "name": "nex-agi/nex-n2-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "sakana/fugu-ultra",
+        "name": "sakana/fugu-ultra",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.1-flash-image",
+        "name": "google/gemini-3.1-flash-image",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3-pro-image",
+        "name": "google/gemini-3-pro-image",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "cohere/north-mini-code:free",
+        "name": "cohere/north-mini-code:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-5.2",
+        "name": "z-ai/glm-5.2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openrouter/fusion",
+        "name": "openrouter/fusion",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "moonshotai/kimi-k2.7-code",
+        "name": "moonshotai/kimi-k2.7-code",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~anthropic/claude-fable-latest",
+        "name": "~anthropic/claude-fable-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-fable-5",
+        "name": "anthropic/claude-fable-5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nex-agi/nex-n2-pro",
+        "name": "nex-agi/nex-n2-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3.5-content-safety:free",
+        "name": "nvidia/nemotron-3.5-content-safety:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b",
+        "name": "nvidia/nemotron-3-ultra-550b-a55b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.7-plus",
+        "name": "qwen/qwen3.7-plus",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-m3",
+        "name": "minimax/minimax-m3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "stepfun/step-3.7-flash",
+        "name": "stepfun/step-3.7-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.7-max",
+        "name": "qwen/qwen3.7-max",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "x-ai/grok-build-0.1",
+        "name": "x-ai/grok-build-0.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.5-flash",
+        "name": "google/gemini-3.5-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "perceptron/perceptron-mk1",
+        "name": "perceptron/perceptron-mk1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "inclusionai/ring-2.6-1t",
+        "name": "inclusionai/ring-2.6-1t",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "google/gemini-3.1-flash-lite",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-chat-latest",
+        "name": "openai/gpt-chat-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "x-ai/grok-4.3",
+        "name": "x-ai/grok-4.3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "ibm-granite/granite-4.1-8b",
+        "name": "ibm-granite/granite-4.1-8b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-medium-3-5",
+        "name": "mistralai/mistral-medium-3-5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "poolside/laguna-m.1",
+        "name": "poolside/laguna-m.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "poolside/laguna-m.1:free",
+        "name": "poolside/laguna-m.1:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~anthropic/claude-haiku-latest",
+        "name": "~anthropic/claude-haiku-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~openai/gpt-mini-latest",
+        "name": "~openai/gpt-mini-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~google/gemini-pro-latest",
+        "name": "~google/gemini-pro-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~moonshotai/kimi-latest",
+        "name": "~moonshotai/kimi-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~google/gemini-flash-latest",
+        "name": "~google/gemini-flash-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~anthropic/claude-sonnet-latest",
+        "name": "~anthropic/claude-sonnet-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "~openai/gpt-latest",
+        "name": "~openai/gpt-latest",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-plus-20260420",
+        "name": "qwen/qwen3.5-plus-20260420",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.6-flash",
+        "name": "qwen/qwen3.6-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.6-35b-a3b",
+        "name": "qwen/qwen3.6-35b-a3b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.6-max-preview",
+        "name": "qwen/qwen3.6-max-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.6-27b",
+        "name": "qwen/qwen3.6-27b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.5-pro",
+        "name": "openai/gpt-5.5-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.5",
+        "name": "openai/gpt-5.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-v4-pro",
+        "name": "deepseek/deepseek-v4-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash",
+        "name": "deepseek/deepseek-v4-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "inclusionai/ling-2.6-1t",
+        "name": "inclusionai/ling-2.6-1t",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "tencent/hy3-preview",
+        "name": "tencent/hy3-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "xiaomi/mimo-v2.5-pro",
+        "name": "xiaomi/mimo-v2.5-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "xiaomi/mimo-v2.5",
+        "name": "xiaomi/mimo-v2.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.4-image-2",
+        "name": "openai/gpt-5.4-image-2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "inclusionai/ling-2.6-flash",
+        "name": "inclusionai/ling-2.6-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openrouter/pareto-code",
+        "name": "openrouter/pareto-code",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "moonshotai/kimi-k2.6",
+        "name": "moonshotai/kimi-k2.6",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-5.1",
+        "name": "z-ai/glm-5.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-4-26b-a4b-it",
+        "name": "google/gemma-4-26b-a4b-it",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-4-26b-a4b-it:free",
+        "name": "google/gemma-4-26b-a4b-it:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-4-31b-it",
+        "name": "google/gemma-4-31b-it",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-4-31b-it:free",
+        "name": "google/gemma-4-31b-it:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.6-plus",
+        "name": "qwen/qwen3.6-plus",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-5v-turbo",
+        "name": "z-ai/glm-5v-turbo",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "arcee-ai/trinity-large-thinking",
+        "name": "arcee-ai/trinity-large-thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "x-ai/grok-4.20-multi-agent",
+        "name": "x-ai/grok-4.20-multi-agent",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "x-ai/grok-4.20",
+        "name": "x-ai/grok-4.20",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/lyria-3-pro-preview",
+        "name": "google/lyria-3-pro-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/lyria-3-clip-preview",
+        "name": "google/lyria-3-clip-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "kwaipilot/kat-coder-pro-v2",
+        "name": "kwaipilot/kat-coder-pro-v2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "rekaai/reka-edge",
+        "name": "rekaai/reka-edge",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-m2.7",
+        "name": "minimax/minimax-m2.7",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.4-nano",
+        "name": "openai/gpt-5.4-nano",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.4-mini",
+        "name": "openai/gpt-5.4-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-small-2603",
+        "name": "mistralai/mistral-small-2603",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-5-turbo",
+        "name": "z-ai/glm-5-turbo",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3-super-120b-a12b",
+        "name": "nvidia/nemotron-3-super-120b-a12b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3-super-120b-a12b:free",
+        "name": "nvidia/nemotron-3-super-120b-a12b:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "bytedance-seed/seed-2.0-lite",
+        "name": "bytedance-seed/seed-2.0-lite",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-9b",
+        "name": "qwen/qwen3.5-9b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.4-pro",
+        "name": "openai/gpt-5.4-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.4",
+        "name": "openai/gpt-5.4",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "inception/mercury-2",
+        "name": "inception/mercury-2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.3-chat",
+        "name": "openai/gpt-5.3-chat",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite-preview",
+        "name": "google/gemini-3.1-flash-lite-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "bytedance-seed/seed-2.0-mini",
+        "name": "bytedance-seed/seed-2.0-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.1-flash-image-preview",
+        "name": "google/gemini-3.1-flash-image-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-35b-a3b",
+        "name": "qwen/qwen3.5-35b-a3b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-27b",
+        "name": "qwen/qwen3.5-27b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-122b-a10b",
+        "name": "qwen/qwen3.5-122b-a10b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-flash-02-23",
+        "name": "qwen/qwen3.5-flash-02-23",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.1-pro-preview-customtools",
+        "name": "google/gemini-3.1-pro-preview-customtools",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.3-codex",
+        "name": "openai/gpt-5.3-codex",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "aion-labs/aion-2.0",
+        "name": "aion-labs/aion-2.0",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3.1-pro-preview",
+        "name": "google/gemini-3.1-pro-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-sonnet-4.6",
+        "name": "anthropic/claude-sonnet-4.6",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-plus-02-15",
+        "name": "qwen/qwen3.5-plus-02-15",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3.5-397b-a17b",
+        "name": "qwen/qwen3.5-397b-a17b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-m2.5",
+        "name": "minimax/minimax-m2.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-5",
+        "name": "z-ai/glm-5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-max-thinking",
+        "name": "qwen/qwen3-max-thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-coder-next",
+        "name": "qwen/qwen3-coder-next",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openrouter/free",
+        "name": "openrouter/free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "stepfun/step-3.5-flash",
+        "name": "stepfun/step-3.5-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "moonshotai/kimi-k2.5",
+        "name": "moonshotai/kimi-k2.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "upstage/solar-pro-3",
+        "name": "upstage/solar-pro-3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-m2-her",
+        "name": "minimax/minimax-m2-her",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "writer/palmyra-x5",
+        "name": "writer/palmyra-x5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-audio",
+        "name": "openai/gpt-audio",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-audio-mini",
+        "name": "openai/gpt-audio-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-4.7-flash",
+        "name": "z-ai/glm-4.7-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.2-codex",
+        "name": "openai/gpt-5.2-codex",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "bytedance-seed/seed-1.6-flash",
+        "name": "bytedance-seed/seed-1.6-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "bytedance-seed/seed-1.6",
+        "name": "bytedance-seed/seed-1.6",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-m2.1",
+        "name": "minimax/minimax-m2.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-4.7",
+        "name": "z-ai/glm-4.7",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3-flash-preview",
+        "name": "google/gemini-3-flash-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-30b-a3b",
+        "name": "nvidia/nemotron-3-nano-30b-a3b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "name": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.2-chat",
+        "name": "openai/gpt-5.2-chat",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.2-pro",
+        "name": "openai/gpt-5.2-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.2",
+        "name": "openai/gpt-5.2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/devstral-2512",
+        "name": "mistralai/devstral-2512",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "relace/relace-search",
+        "name": "relace/relace-search",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-4.6v",
+        "name": "z-ai/glm-4.6v",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openrouter/bodybuilder",
+        "name": "openrouter/bodybuilder",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.1-codex-max",
+        "name": "openai/gpt-5.1-codex-max",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "amazon/nova-2-lite-v1",
+        "name": "amazon/nova-2-lite-v1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/ministral-14b-2512",
+        "name": "mistralai/ministral-14b-2512",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/ministral-8b-2512",
+        "name": "mistralai/ministral-8b-2512",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/ministral-3b-2512",
+        "name": "mistralai/ministral-3b-2512",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-large-2512",
+        "name": "mistralai/mistral-large-2512",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-v3.2",
+        "name": "deepseek/deepseek-v3.2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "allenai/olmo-3-32b-think",
+        "name": "allenai/olmo-3-32b-think",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-3-pro-image-preview",
+        "name": "google/gemini-3-pro-image-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepcogito/cogito-v2.1-671b",
+        "name": "deepcogito/cogito-v2.1-671b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.1",
+        "name": "openai/gpt-5.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.1-chat",
+        "name": "openai/gpt-5.1-chat",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.1-codex",
+        "name": "openai/gpt-5.1-codex",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5.1-codex-mini",
+        "name": "openai/gpt-5.1-codex-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "moonshotai/kimi-k2-thinking",
+        "name": "moonshotai/kimi-k2-thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "amazon/nova-premier-v1",
+        "name": "amazon/nova-premier-v1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "perplexity/sonar-pro-search",
+        "name": "perplexity/sonar-pro-search",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/voxtral-small-24b-2507",
+        "name": "mistralai/voxtral-small-24b-2507",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-oss-safeguard-20b",
+        "name": "openai/gpt-oss-safeguard-20b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-nano-12b-v2-vl:free",
+        "name": "nvidia/nemotron-nano-12b-v2-vl:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-m2",
+        "name": "minimax/minimax-m2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-vl-32b-instruct",
+        "name": "qwen/qwen3-vl-32b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "ibm-granite/granite-4.0-h-micro",
+        "name": "ibm-granite/granite-4.0-h-micro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5-image-mini",
+        "name": "openai/gpt-5-image-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-haiku-4.5",
+        "name": "anthropic/claude-haiku-4.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-vl-8b-thinking",
+        "name": "qwen/qwen3-vl-8b-thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-vl-8b-instruct",
+        "name": "qwen/qwen3-vl-8b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5-image",
+        "name": "openai/gpt-5-image",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o3-deep-research",
+        "name": "openai/o3-deep-research",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o4-mini-deep-research",
+        "name": "openai/o4-mini-deep-research",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-2.5-flash-image",
+        "name": "google/gemini-2.5-flash-image",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-vl-30b-a3b-thinking",
+        "name": "qwen/qwen3-vl-30b-a3b-thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-vl-30b-a3b-instruct",
+        "name": "qwen/qwen3-vl-30b-a3b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5-pro",
+        "name": "openai/gpt-5-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-4.6",
+        "name": "z-ai/glm-4.6",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-sonnet-4.5",
+        "name": "anthropic/claude-sonnet-4.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-v3.2-exp",
+        "name": "deepseek/deepseek-v3.2-exp",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "thedrummer/cydonia-24b-v4.1",
+        "name": "thedrummer/cydonia-24b-v4.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "relace/relace-apply-3",
+        "name": "relace/relace-apply-3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-vl-235b-a22b-thinking",
+        "name": "qwen/qwen3-vl-235b-a22b-thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-vl-235b-a22b-instruct",
+        "name": "qwen/qwen3-vl-235b-a22b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-max",
+        "name": "qwen/qwen3-max",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-coder-plus",
+        "name": "qwen/qwen3-coder-plus",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5-codex",
+        "name": "openai/gpt-5-codex",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-v3.1-terminus",
+        "name": "deepseek/deepseek-v3.1-terminus",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-coder-flash",
+        "name": "qwen/qwen3-coder-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-next-80b-a3b-thinking",
+        "name": "qwen/qwen3-next-80b-a3b-thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-next-80b-a3b-instruct",
+        "name": "qwen/qwen3-next-80b-a3b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen-plus-2025-07-28",
+        "name": "qwen/qwen-plus-2025-07-28",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen-plus-2025-07-28:thinking",
+        "name": "qwen/qwen-plus-2025-07-28:thinking",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nvidia/nemotron-nano-9b-v2:free",
+        "name": "nvidia/nemotron-nano-9b-v2:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "moonshotai/kimi-k2-0905",
+        "name": "moonshotai/kimi-k2-0905",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-30b-a3b-thinking-2507",
+        "name": "qwen/qwen3-30b-a3b-thinking-2507",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nousresearch/hermes-4-405b",
+        "name": "nousresearch/hermes-4-405b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-chat-v3.1",
+        "name": "deepseek/deepseek-chat-v3.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-medium-3.1",
+        "name": "mistralai/mistral-medium-3.1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-4.5v",
+        "name": "z-ai/glm-4.5v",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "ai21/jamba-large-1.7",
+        "name": "ai21/jamba-large-1.7",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5",
+        "name": "openai/gpt-5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5-mini",
+        "name": "openai/gpt-5-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-5-nano",
+        "name": "openai/gpt-5-nano",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-oss-120b",
+        "name": "openai/gpt-oss-120b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-oss-20b",
+        "name": "openai/gpt-oss-20b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-oss-20b:free",
+        "name": "openai/gpt-oss-20b:free",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/codestral-2508",
+        "name": "mistralai/codestral-2508",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-coder-30b-a3b-instruct",
+        "name": "qwen/qwen3-coder-30b-a3b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-30b-a3b-instruct-2507",
+        "name": "qwen/qwen3-30b-a3b-instruct-2507",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-4.5",
+        "name": "z-ai/glm-4.5",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "z-ai/glm-4.5-air",
+        "name": "z-ai/glm-4.5-air",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-235b-a22b-thinking-2507",
+        "name": "qwen/qwen3-235b-a22b-thinking-2507",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-coder",
+        "name": "qwen/qwen3-coder",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "bytedance/ui-tars-1.5-7b",
+        "name": "bytedance/ui-tars-1.5-7b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-2.5-flash-lite",
+        "name": "google/gemini-2.5-flash-lite",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-235b-a22b-2507",
+        "name": "qwen/qwen3-235b-a22b-2507",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "moonshotai/kimi-k2",
+        "name": "moonshotai/kimi-k2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "name": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "tencent/hunyuan-a13b-instruct",
+        "name": "tencent/hunyuan-a13b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "morph/morph-v3-large",
+        "name": "morph/morph-v3-large",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "morph/morph-v3-fast",
+        "name": "morph/morph-v3-fast",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "baidu/ernie-4.5-vl-424b-a47b",
+        "name": "baidu/ernie-4.5-vl-424b-a47b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-small-3.2-24b-instruct",
+        "name": "mistralai/mistral-small-3.2-24b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-m1",
+        "name": "minimax/minimax-m1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-2.5-flash",
+        "name": "google/gemini-2.5-flash",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-2.5-pro",
+        "name": "google/gemini-2.5-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o3-pro",
+        "name": "openai/o3-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-2.5-pro-preview",
+        "name": "google/gemini-2.5-pro-preview",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-r1-0528",
+        "name": "deepseek/deepseek-r1-0528",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthropic/claude-sonnet-4",
+        "name": "anthropic/claude-sonnet-4",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-3n-e4b-it",
+        "name": "google/gemma-3n-e4b-it",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-medium-3",
+        "name": "mistralai/mistral-medium-3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemini-2.5-pro-preview-05-06",
+        "name": "google/gemini-2.5-pro-preview-05-06",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "arcee-ai/virtuoso-large",
+        "name": "arcee-ai/virtuoso-large",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-guard-4-12b",
+        "name": "meta-llama/llama-guard-4-12b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-30b-a3b",
+        "name": "qwen/qwen3-30b-a3b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-8b",
+        "name": "qwen/qwen3-8b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-14b",
+        "name": "qwen/qwen3-14b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-32b",
+        "name": "qwen/qwen3-32b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen3-235b-a22b",
+        "name": "qwen/qwen3-235b-a22b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o4-mini-high",
+        "name": "openai/o4-mini-high",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o3",
+        "name": "openai/o3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o4-mini",
+        "name": "openai/o4-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-4-maverick",
+        "name": "meta-llama/llama-4-maverick",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-4-scout",
+        "name": "meta-llama/llama-4-scout",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-chat-v3-0324",
+        "name": "deepseek/deepseek-chat-v3-0324",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o1-pro",
+        "name": "openai/o1-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-small-3.1-24b-instruct",
+        "name": "mistralai/mistral-small-3.1-24b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-3-4b-it",
+        "name": "google/gemma-3-4b-it",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-3-12b-it",
+        "name": "google/gemma-3-12b-it",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "cohere/command-a",
+        "name": "cohere/command-a",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "rekaai/reka-flash-3",
+        "name": "rekaai/reka-flash-3",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-3-27b-it",
+        "name": "google/gemma-3-27b-it",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "thedrummer/skyfall-36b-v2",
+        "name": "thedrummer/skyfall-36b-v2",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "perplexity/sonar-reasoning-pro",
+        "name": "perplexity/sonar-reasoning-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "perplexity/sonar-pro",
+        "name": "perplexity/sonar-pro",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "perplexity/sonar-deep-research",
+        "name": "perplexity/sonar-deep-research",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-saba",
+        "name": "mistralai/mistral-saba",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o3-mini-high",
+        "name": "openai/o3-mini-high",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "aion-labs/aion-rp-llama-3.1-8b",
+        "name": "aion-labs/aion-rp-llama-3.1-8b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen2.5-vl-72b-instruct",
+        "name": "qwen/qwen2.5-vl-72b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen-plus",
+        "name": "qwen/qwen-plus",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o3-mini",
+        "name": "openai/o3-mini",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-small-24b-instruct-2501",
+        "name": "mistralai/mistral-small-24b-instruct-2501",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "perplexity/sonar",
+        "name": "perplexity/sonar",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-r1",
+        "name": "deepseek/deepseek-r1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "minimax/minimax-01",
+        "name": "minimax/minimax-01",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "microsoft/phi-4",
+        "name": "microsoft/phi-4",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "deepseek/deepseek-chat",
+        "name": "deepseek/deepseek-chat",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/o1",
+        "name": "openai/o1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "cohere/command-r7b-12-2024",
+        "name": "cohere/command-r7b-12-2024",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "amazon/nova-lite-v1",
+        "name": "amazon/nova-lite-v1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "amazon/nova-micro-v1",
+        "name": "amazon/nova-micro-v1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "amazon/nova-pro-v1",
+        "name": "amazon/nova-pro-v1",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-large-2407",
+        "name": "mistralai/mistral-large-2407",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen-2.5-coder-32b-instruct",
+        "name": "qwen/qwen-2.5-coder-32b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "thedrummer/unslopnemo-12b",
+        "name": "thedrummer/unslopnemo-12b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "anthracite-org/magnum-v4-72b",
+        "name": "anthracite-org/magnum-v4-72b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen-2.5-7b-instruct",
+        "name": "qwen/qwen-2.5-7b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "thedrummer/rocinante-12b",
+        "name": "thedrummer/rocinante-12b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-3.2-1b-instruct",
+        "name": "meta-llama/llama-3.2-1b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-3.2-3b-instruct",
+        "name": "meta-llama/llama-3.2-3b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "qwen/qwen-2.5-72b-instruct",
+        "name": "qwen/qwen-2.5-72b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "cohere/command-r-08-2024",
+        "name": "cohere/command-r-08-2024",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "cohere/command-r-plus-08-2024",
+        "name": "cohere/command-r-plus-08-2024",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nousresearch/hermes-3-llama-3.1-405b",
+        "name": "nousresearch/hermes-3-llama-3.1-405b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "sao10k/l3-lunaris-8b",
+        "name": "sao10k/l3-lunaris-8b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "meta-llama/llama-3.1-8b-instruct",
+        "name": "meta-llama/llama-3.1-8b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-nemo",
+        "name": "mistralai/mistral-nemo",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "google/gemma-2-27b-it",
+        "name": "google/gemma-2-27b-it",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mixtral-8x22b-instruct",
+        "name": "mistralai/mixtral-8x22b-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "microsoft/wizardlm-2-8x22b",
+        "name": "microsoft/wizardlm-2-8x22b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mistralai/mistral-large",
+        "name": "mistralai/mistral-large",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-3.5-turbo-0613",
+        "name": "openai/gpt-3.5-turbo-0613",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openrouter/auto",
+        "name": "openrouter/auto",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-3.5-turbo-instruct",
+        "name": "openai/gpt-3.5-turbo-instruct",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-3.5-turbo-16k",
+        "name": "openai/gpt-3.5-turbo-16k",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "mancer/weaver",
+        "name": "mancer/weaver",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "undi95/remm-slerp-l2-13b",
+        "name": "undi95/remm-slerp-l2-13b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "gryphe/mythomax-l2-13b",
+        "name": "gryphe/mythomax-l2-13b",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "openai/gpt-3.5-turbo",
+        "name": "openai/gpt-3.5-turbo",
+        "capabilities": [
+          "text"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "nousresearch/hermes-4-70b",
+        "name": "nousresearch/hermes-4-70b",
+        "capabilities": [
+          "reasoning"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "sao10k/l3.3-euryale-70b",
+        "name": "sao10k/l3.3-euryale-70b",
+        "capabilities": [
+          "reasoning"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      },
+      {
+        "id": "sao10k/l3.1-euryale-70b",
+        "name": "sao10k/l3.1-euryale-70b",
+        "capabilities": [
+          "reasoning"
+        ],
+        "contextWindow": 8192,
+        "maxTokens": 4096,
+        "enabled": true,
+        "metadata": {
+          "speed": "medium",
+          "quality": "medium",
+          "vendor": "Custom"
+        }
+      }
+    ],
+    "priority": 1,
+    "createdAt": "2026-07-28T08:45:57.851Z",
+    "loadBalancing": {
+      "enabled": false,
+      "strategy": "round-robin",
+      "keyRotation": true
+    },
+    "defaultModel": "inclusionai/ling-3.0-flash:free"
+  }
+]

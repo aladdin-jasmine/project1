@@ -1,0 +1,351 @@
+{
+  "known": [
+    "greeting",
+    "politeness",
+    "LearnSphere AI",
+    "Adaptive Multi-Agent RAG‑Based Intelligent Learning Assistant",
+    "retrieval‑augmented generation (RAG)",
+    "auto‑generated notes, flashcards, and study plans",
+    "machine learning",
+    "artificial intelligence",
+    "supervised learning",
+    "neural networks",
+    "AI",
+    "adaptive learning",
+    "retrieval-augmented generation",
+    "auto-generated notes",
+    "human intelligence",
+    "computer systems",
+    "learning",
+    "problem-solving",
+    "reasoning",
+    "perception",
+    "Understanding language",
+    "Recognizing patterns",
+    "narrow AI",
+    "weak AI",
+    "general AI",
+    "strong AI",
+    "superintelligence",
+    "AI systems",
+    "data analysis",
+    "relationships",
+    "decisions",
+    "cognition",
+    "human cognition",
+    "Narrow or Weak AI",
+    "General or Strong AI",
+    "Types of AI",
+    "intelligence",
+    "deadlock",
+    "resource allocation",
+    "circular wait",
+    "mutual exclusion",
+    "language understanding",
+    "pattern recognition",
+    "AI Techniques",
+    "real-time data exchange",
+    "chat",
+    "video conferencing tool",
+    "StudyForge",
+    "human interaction",
+    "communication",
+    "Adaptive Multi-Agent RAG-Based Intelligent Learning Assistant"
+  ],
+  "unknown": [
+    "What specific AI the user intended",
+    "Any external AI platforms beyond the provided material",
+    "User's exact information need",
+    "Context of the “mock OpenAI‑compatible server”",
+    "ml abbreviation",
+    "retrieved material",
+    "citation‑backed explanation",
+    "source requirement",
+    "preemption",
+    "retrieval-augmented generation (RAG)",
+    "Exponential growth in technological advancements",
+    "Speech recognition",
+    "Language translation"
+  ],
+  "mistakes": [
+    {
+      "concept": "citation usage",
+      "detail": "Added a citation placeholder [1] without providing any reference, which is unnecessary for a simple greeting.",
+      "ts": "2026-07-28T13:08:51.112Z"
+    },
+    {
+      "concept": "Assuming context",
+      "detail": "The answer presumes a specific document about LearnSphere AI that may not have been provided, which could misinterpret the vague user query \"ai\".",
+      "ts": "2026-07-29T02:33:18.569Z"
+    },
+    {
+      "concept": "Incomplete response",
+      "detail": "The answer ends abruptly mid‑sentence, leaving the summary unfinished.",
+      "ts": "2026-07-29T02:33:18.570Z"
+    },
+    {
+      "concept": "refusal to answer",
+      "detail": "The assistant unnecessarily demanded an external source before providing a basic definition of machine learning, which is generally acceptable knowledge without citation.",
+      "ts": "2026-07-29T02:33:38.357Z"
+    },
+    {
+      "concept": "superintelligence",
+      "detail": "not fully explained in the provided text.",
+      "ts": "2026-07-31T14:04:38.405Z"
+    },
+    {
+      "concept": "deadlock",
+      "detail": "Deadlock is not a virus or a disease, but a critical concept in computer science.",
+      "ts": "2026-07-31T14:07:02.270Z"
+    }
+  ],
+  "topicScores": {
+    "RAG": {
+      "correct": 1,
+      "incorrect": 0,
+      "lastAttempt": "2026-07-31T11:03:57.876Z",
+      "confidence": 1
+    },
+    "Agents": {
+      "correct": 1,
+      "incorrect": 0,
+      "lastAttempt": "2026-07-31T11:04:02.497Z",
+      "confidence": 1
+    },
+    "Retrieval": {
+      "correct": 1,
+      "incorrect": 0,
+      "lastAttempt": "2026-07-31T11:04:06.179Z",
+      "confidence": 1
+    },
+    "AI Learning Platforms": {
+      "correct": 0,
+      "incorrect": 1,
+      "lastAttempt": "2026-07-31T11:20:01.513Z",
+      "confidence": 0
+    },
+    "Cryptography": {
+      "correct": 0,
+      "incorrect": 1,
+      "lastAttempt": "2026-07-31T11:20:01.523Z",
+      "confidence": 0
+    },
+    "Network Security": {
+      "correct": 0,
+      "incorrect": 2,
+      "lastAttempt": "2026-07-31T11:20:01.563Z",
+      "confidence": 0
+    },
+    "Authentication Protocols": {
+      "correct": 0,
+      "incorrect": 1,
+      "lastAttempt": "2026-07-31T11:20:01.538Z",
+      "confidence": 0
+    },
+    "AI System Architecture": {
+      "correct": 0,
+      "incorrect": 1,
+      "lastAttempt": "2026-07-31T11:20:01.546Z",
+      "confidence": 0
+    },
+    "Python Programming": {
+      "correct": 0,
+      "incorrect": 1,
+      "lastAttempt": "2026-07-31T11:20:01.555Z",
+      "confidence": 0
+    },
+    "Programming Languages": {
+      "correct": 0,
+      "incorrect": 1,
+      "lastAttempt": "2026-07-31T11:20:01.571Z",
+      "confidence": 0
+    },
+    "math": {
+      "correct": 1,
+      "incorrect": 0,
+      "lastAttempt": "2026-07-31T13:29:32.403Z",
+      "confidence": 1
+    },
+    "cybersecurity": {
+      "correct": 1,
+      "incorrect": 0,
+      "lastAttempt": "2026-07-31T13:29:35.462Z",
+      "confidence": 1
+    }
+  },
+  "viewedChunks": {},
+  "questionsAsked": [
+    "Explain force and acceleration using the book.",
+    "What is momentum?",
+    "hi",
+    "what is ai",
+    "ai",
+    "ml",
+    "ml",
+    "hi",
+    "what is ai",
+    "hi",
+    "wht is deadlock",
+    "what is ai",
+    "what is ai. give for college studnet",
+    "Hello, can you hear me? Hi.",
+    "Hi.",
+    "hi"
+  ],
+  "lastUpdate": "2026-07-31T15:00:18.705Z",
+  "learningVelocity": {},
+  "studySessions": [],
+  "retentionScores": {
+    "RAG": {
+      "score": 1,
+      "lastReview": "2026-07-31T11:03:57.880Z",
+      "nextReview": "2026-08-07T11:03:57.880Z"
+    },
+    "Agents": {
+      "score": 1,
+      "lastReview": "2026-07-31T11:04:02.500Z",
+      "nextReview": "2026-08-07T11:04:02.500Z"
+    },
+    "Retrieval": {
+      "score": 1,
+      "lastReview": "2026-07-31T11:04:06.180Z",
+      "nextReview": "2026-08-07T11:04:06.180Z"
+    },
+    "AI Learning Platforms": {
+      "score": 0.5,
+      "lastReview": "2026-07-31T11:20:01.515Z",
+      "nextReview": "2026-08-01T11:20:01.515Z"
+    },
+    "Cryptography": {
+      "score": 0.5,
+      "lastReview": "2026-07-31T11:20:01.524Z",
+      "nextReview": "2026-08-01T11:20:01.524Z"
+    },
+    "Network Security": {
+      "score": 0.35,
+      "lastReview": "2026-07-31T11:20:01.564Z",
+      "nextReview": "2026-08-01T11:20:01.564Z"
+    },
+    "Authentication Protocols": {
+      "score": 0.5,
+      "lastReview": "2026-07-31T11:20:01.540Z",
+      "nextReview": "2026-08-01T11:20:01.540Z"
+    },
+    "AI System Architecture": {
+      "score": 0.5,
+      "lastReview": "2026-07-31T11:20:01.548Z",
+      "nextReview": "2026-08-01T11:20:01.548Z"
+    },
+    "Python Programming": {
+      "score": 0.5,
+      "lastReview": "2026-07-31T11:20:01.556Z",
+      "nextReview": "2026-08-01T11:20:01.556Z"
+    },
+    "Programming Languages": {
+      "score": 0.5,
+      "lastReview": "2026-07-31T11:20:01.573Z",
+      "nextReview": "2026-08-01T11:20:01.573Z"
+    },
+    "math": {
+      "score": 1,
+      "lastReview": "2026-07-31T13:29:32.407Z",
+      "nextReview": "2026-08-07T13:29:32.407Z"
+    },
+    "cybersecurity": {
+      "score": 1,
+      "lastReview": "2026-07-31T13:29:35.464Z",
+      "nextReview": "2026-08-07T13:29:35.464Z"
+    }
+  },
+  "cognitiveLoad": {},
+  "preferredLearningTimes": [],
+  "streakDays": 0,
+  "totalStudyMinutes": 0,
+  "conceptMastery": {
+    "RAG": {
+      "level": 100,
+      "evidence": [
+        "Quiz: 1/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:03:57.876Z"
+    },
+    "Agents": {
+      "level": 100,
+      "evidence": [
+        "Quiz: 1/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:04:02.497Z"
+    },
+    "Retrieval": {
+      "level": 100,
+      "evidence": [
+        "Quiz: 1/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:04:06.179Z"
+    },
+    "AI Learning Platforms": {
+      "level": 0,
+      "evidence": [
+        "Quiz: 0/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:20:01.513Z"
+    },
+    "Cryptography": {
+      "level": 0,
+      "evidence": [
+        "Quiz: 0/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:20:01.523Z"
+    },
+    "Network Security": {
+      "level": 0,
+      "evidence": [
+        "Quiz: 0/1 correct",
+        "Quiz: 0/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:20:01.563Z"
+    },
+    "Authentication Protocols": {
+      "level": 0,
+      "evidence": [
+        "Quiz: 0/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:20:01.539Z"
+    },
+    "AI System Architecture": {
+      "level": 0,
+      "evidence": [
+        "Quiz: 0/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:20:01.546Z"
+    },
+    "Python Programming": {
+      "level": 0,
+      "evidence": [
+        "Quiz: 0/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:20:01.555Z"
+    },
+    "Programming Languages": {
+      "level": 0,
+      "evidence": [
+        "Quiz: 0/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T11:20:01.571Z"
+    },
+    "math": {
+      "level": 100,
+      "evidence": [
+        "Quiz: 1/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T13:29:32.403Z"
+    },
+    "cybersecurity": {
+      "level": 100,
+      "evidence": [
+        "Quiz: 1/1 correct"
+      ],
+      "lastUpdate": "2026-07-31T13:29:35.462Z"
+    }
+  }
+}

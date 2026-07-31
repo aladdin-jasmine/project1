@@ -1,0 +1,42 @@
+PASS  mock LLM server starts
+[app] (node:38800) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PASS  StudyForge server starts
+PASS  project created  — aadac176-0484-4916-a3b8-21d4b10d4aec
+PASS  upload 4 files  — status 201 got 4
+PASS  chunks generated for uploads  — [1,1,1,1]
+PASS  hybrid retrieval returns chunks  — got 3
+PASS  chat returns content  — len 360
+PASS  chat returns citations  — citations 5
+PASS  chat returns confidence %  — conf 35
+PASS  chat returns sessionId  — fa067367-d992-4b38-8b68-53811278ca6b
+PASS  streamed chat delivered tokens  — len 360
+PASS  stream done has citations+confidence  — conf 35
+PASS  chat sessions persisted  — count 4
+FAIL  quiz (mcq x4)  — n=undefined
+FAIL  notes pack fields  — notes ok
+FAIL  explain levels  — levels undefined
+FAIL  visual mermaid  — mermaid ok
+PASS  study plan days  — days 5
+PASS  evaluate answer  — marks 8/10
+FAIL  predict next topic
+FAIL  recommend suggestions  — n=undefined
+PASS  weakspot report  — weakspot ok
+FAIL  knowledge graph  — nodes undefined
+PASS  summarize  — summary ok
+FAIL  slides  — n=undefined
+PASS  flashcards  — n=6
+FAIL  mindmap  — mindmap ok
+[app] [WARN] 2026-07-28T05:20:10.859Z Provider "groq" key "primary" hit 429 → cooldown 800ms, failing over to next key
+[app] [WARN] 2026-07-28T05:20:10.868Z Provider "groq" key "primary" hit 429 → cooldown 800ms, failing over to next key
+[app] [WARN] 2026-07-28T05:20:11.093Z Provider "groq" key "primary" hit 429 → cooldown 800ms, failing over to next key
+FAIL  study pack  — pack ok
+PASS  search everything  — chunks 4
+PASS  progress activity recorded  — activity ok
+PASS  analytics computed  — knowledgeScore,consistencyScore,revisionScore,avgQuizScore,completionPct,studyHours
+PASS  admin overview  — docCount 9
+PASS  qpapers upload  — status 201
+PASS  qpapers retrieval  — got 1
+PASS  docs listing  — n=9
+
+==== RESULTS: 25/35 passed ====

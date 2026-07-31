@@ -1,0 +1,545 @@
+[2026-07-28T19:43:27.202Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:43:27.203Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:43:36.579Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:43:36.580Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:43:44.024Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:43:44.024Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:44:24.759Z] [INFO] → GET /api/health
+[2026-07-28T19:44:24.764Z] [INFO] ← GET /api/health 200 (5ms)
+[2026-07-28T19:44:32.907Z] [INFO] → GET /api/health
+[2026-07-28T19:44:32.909Z] [INFO] ← GET /api/health 200 (3ms)
+[2026-07-28T19:44:50.400Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:44:50.401Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:44:56.425Z] [INFO] → GET /api/health
+[2026-07-28T19:44:56.427Z] [INFO] ← GET /api/health 200 (3ms)
+[2026-07-28T19:45:03.650Z] [INFO] → GET /api/health
+[2026-07-28T19:45:03.651Z] [INFO] ← GET /api/health 200 (1ms)
+[2026-07-28T19:45:21.232Z] [INFO] → POST /api/history/draft
+[2026-07-28T19:45:21.235Z] [INFO] ← POST /draft 200 (3ms)
+[2026-07-28T19:45:21.407Z] [INFO] → POST /api/history/draft
+[2026-07-28T19:45:21.410Z] [INFO] ← POST /draft 200 (2ms)
+[2026-07-28T19:45:21.808Z] [INFO] → POST /api/history/draft
+[2026-07-28T19:45:21.811Z] [INFO] ← POST /draft 200 (2ms)
+[2026-07-28T19:45:40.940Z] [INFO] → GET /api/history
+[2026-07-28T19:45:40.941Z] [INFO] ← GET / 200 (1ms)
+[2026-07-28T19:45:41.006Z] [INFO] → GET /api/history
+[2026-07-28T19:45:41.006Z] [INFO] ← GET / 200 (1ms)
+[2026-07-28T19:45:41.064Z] [INFO] → GET /api/history
+[2026-07-28T19:45:41.065Z] [INFO] ← GET / 200 (2ms)
+[2026-07-28T19:46:12.809Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:46:12.809Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:46:27.842Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:46:27.843Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:47:14.787Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:47:14.788Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:47:30.795Z] [INFO] → POST /api/study/notes
+[2026-07-28T19:47:31.164Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-28T19:47:31.165Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-28T19:47:31.383Z] [INFO] Local embedding model ready
+[2026-07-28T19:47:31.411Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-28T19:47:37.101Z] [ACTION] [ACTION] generation.create | {"historyId":"93b5c22c-100c-49a3-a2b9-130f1d5ad5d8","type":"notes","subType":"all-in-one"}
+[2026-07-28T19:47:37.105Z] [INFO] ← POST /notes 200 (6310ms)
+[2026-07-28T19:47:45.511Z] [INFO] → GET /api/rag/docs
+[2026-07-28T19:47:45.514Z] [INFO] ← GET /docs 200 (3ms)
+[2026-07-28T19:47:45.517Z] [INFO] → GET /api/history
+[2026-07-28T19:47:45.521Z] [INFO] ← GET / 200 (3ms)
+[2026-07-28T19:49:19.686Z] [INFO] → GET /api/history
+[2026-07-28T19:49:19.688Z] [INFO] ← GET / 200 (1ms)
+[2026-07-28T19:49:42.107Z] [INFO] → GET /api/history
+[2026-07-28T19:49:42.108Z] [INFO] ← GET / 304 (2ms)
+[2026-07-28T19:49:55.403Z] [INFO] → GET /api/rag/docs
+[2026-07-28T19:49:55.404Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T19:50:30.916Z] [INFO] → POST /api/history/draft
+[2026-07-28T19:50:30.919Z] [INFO] ← POST /draft 200 (4ms)
+[2026-07-28T19:50:30.928Z] [INFO] → GET /api/history/234c6d7e-c81a-47d2-b395-a815c6ff19b2
+[2026-07-28T19:50:30.930Z] [INFO] ← GET /234c6d7e-c81a-47d2-b395-a815c6ff19b2 200 (2ms)
+[2026-07-28T19:50:30.937Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:50:32.935Z] [INFO] → GET /api/history/234c6d7e-c81a-47d2-b395-a815c6ff19b2
+[2026-07-28T19:50:32.937Z] [INFO] ← GET /234c6d7e-c81a-47d2-b395-a815c6ff19b2 304 (1ms)
+[2026-07-28T19:50:33.100Z] [ACTION] [ACTION] generation.complete | {"draftId":"234c6d7e-c81a-47d2-b395-a815c6ff19b2","type":"explanation","subType":"general"}
+[2026-07-28T19:50:33.101Z] [INFO] ← POST /explain 200 (2164ms)
+[2026-07-28T19:50:33.106Z] [INFO] → GET /api/history/234c6d7e-c81a-47d2-b395-a815c6ff19b2
+[2026-07-28T19:50:33.107Z] [INFO] ← GET /234c6d7e-c81a-47d2-b395-a815c6ff19b2 200 (0ms)
+[2026-07-28T19:51:13.824Z] [INFO] → PATCH /api/history/8f2df417-b6d1-4e44-8b5d-de2bc5009e8e
+[2026-07-28T19:51:13.828Z] [INFO] ← PATCH /8f2df417-b6d1-4e44-8b5d-de2bc5009e8e 200 (5ms)
+[2026-07-28T19:51:13.837Z] [INFO] → GET /api/history/8f2df417-b6d1-4e44-8b5d-de2bc5009e8e
+[2026-07-28T19:51:13.839Z] [INFO] ← GET /8f2df417-b6d1-4e44-8b5d-de2bc5009e8e 200 (1ms)
+[2026-07-28T19:51:19.964Z] [INFO] → GET /api/rag/docs
+[2026-07-28T19:51:19.965Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T19:51:19.965Z] [INFO] → GET /api/rag/folders
+[2026-07-28T19:51:19.967Z] [INFO] ← GET /folders 304 (2ms)
+[2026-07-28T19:51:19.968Z] [INFO] → GET /api/rag/folders/paths
+[2026-07-28T19:51:19.970Z] [INFO] ← GET /folders/paths 304 (2ms)
+[2026-07-28T19:51:19.971Z] [INFO] → GET /api/rag/staged
+[2026-07-28T19:51:19.973Z] [INFO] ← GET /staged 304 (1ms)
+[2026-07-28T19:51:55.653Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:51:55.653Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:52:03.126Z] [INFO] → GET /api/history/234c6d7e-c81a-47d2-b395-a815c6ff19b2
+[2026-07-28T19:52:03.130Z] [INFO] ← GET /234c6d7e-c81a-47d2-b395-a815c6ff19b2 304 (5ms)
+[2026-07-28T19:52:03.279Z] [INFO] → GET /api/history/8f2df417-b6d1-4e44-8b5d-de2bc5009e8e
+[2026-07-28T19:52:03.280Z] [INFO] ← GET /8f2df417-b6d1-4e44-8b5d-de2bc5009e8e 304 (1ms)
+[2026-07-28T19:52:03.294Z] [INFO] → PATCH /api/history/8f2df417-b6d1-4e44-8b5d-de2bc5009e8e
+[2026-07-28T19:52:03.297Z] [INFO] ← PATCH /8f2df417-b6d1-4e44-8b5d-de2bc5009e8e 200 (2ms)
+[2026-07-28T19:52:03.304Z] [INFO] → GET /api/history/8f2df417-b6d1-4e44-8b5d-de2bc5009e8e
+[2026-07-28T19:52:03.305Z] [INFO] ← GET /8f2df417-b6d1-4e44-8b5d-de2bc5009e8e 200 (1ms)
+[2026-07-28T19:52:37.291Z] [INFO] → GET /api/rag/docs
+[2026-07-28T19:52:37.585Z] [INFO] ← GET /docs 304 (293ms)
+[2026-07-28T19:52:37.586Z] [INFO] → GET /api/history
+[2026-07-28T19:52:37.588Z] [INFO] ← GET / 200 (2ms)
+[2026-07-28T19:53:08.647Z] [INFO] → GET /api/rag/docs
+[2026-07-28T19:53:08.648Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T19:53:38.574Z] [INFO] → POST /api/history/draft
+[2026-07-28T19:53:38.578Z] [INFO] ← POST /draft 200 (3ms)
+[2026-07-28T19:53:38.586Z] [INFO] → GET /api/history/340f6ad4-c969-4c0a-9b46-7037b3c660b1
+[2026-07-28T19:53:38.587Z] [INFO] ← GET /340f6ad4-c969-4c0a-9b46-7037b3c660b1 200 (1ms)
+[2026-07-28T19:53:38.593Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:53:40.597Z] [INFO] → GET /api/history/340f6ad4-c969-4c0a-9b46-7037b3c660b1
+[2026-07-28T19:53:40.598Z] [INFO] ← GET /340f6ad4-c969-4c0a-9b46-7037b3c660b1 304 (1ms)
+[2026-07-28T19:53:40.654Z] [ACTION] [ACTION] generation.complete | {"draftId":"340f6ad4-c969-4c0a-9b46-7037b3c660b1","type":"explanation","subType":"general"}
+[2026-07-28T19:53:40.654Z] [INFO] ← POST /explain 200 (2061ms)
+[2026-07-28T19:53:40.659Z] [INFO] → GET /api/history/340f6ad4-c969-4c0a-9b46-7037b3c660b1
+[2026-07-28T19:53:40.660Z] [INFO] ← GET /340f6ad4-c969-4c0a-9b46-7037b3c660b1 200 (1ms)
+[2026-07-28T19:54:45.252Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:54:45.252Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:54:50.414Z] [INFO] → GET /api/rag/docs
+[2026-07-28T19:54:50.758Z] [INFO] ← GET /docs 304 (345ms)
+[2026-07-28T19:55:05.914Z] [INFO] → POST /api/history/draft
+[2026-07-28T19:55:05.920Z] [INFO] ← POST /draft 200 (5ms)
+[2026-07-28T19:55:05.928Z] [INFO] → GET /api/history/d447535d-0610-4195-9de4-5b42132ab196
+[2026-07-28T19:55:05.931Z] [INFO] ← GET /d447535d-0610-4195-9de4-5b42132ab196 200 (2ms)
+[2026-07-28T19:55:05.939Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:55:07.940Z] [INFO] → GET /api/history/d447535d-0610-4195-9de4-5b42132ab196
+[2026-07-28T19:55:07.941Z] [INFO] ← GET /d447535d-0610-4195-9de4-5b42132ab196 304 (1ms)
+[2026-07-28T19:55:08.968Z] [ACTION] [ACTION] generation.complete | {"draftId":"d447535d-0610-4195-9de4-5b42132ab196","type":"explanation","subType":"general"}
+[2026-07-28T19:55:08.969Z] [INFO] ← POST /explain 200 (3031ms)
+[2026-07-28T19:55:08.975Z] [INFO] → GET /api/history/d447535d-0610-4195-9de4-5b42132ab196
+[2026-07-28T19:55:08.976Z] [INFO] ← GET /d447535d-0610-4195-9de4-5b42132ab196 200 (2ms)
+[2026-07-28T19:56:06.896Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:56:06.897Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:56:16.331Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:56:16.332Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:56:28.131Z] [INFO] → GET /api/history/d447535d-0610-4195-9de4-5b42132ab196
+[2026-07-28T19:56:28.134Z] [INFO] ← GET /d447535d-0610-4195-9de4-5b42132ab196 304 (4ms)
+[2026-07-28T19:56:33.378Z] [INFO] → GET /api/rag/docs
+[2026-07-28T19:56:33.591Z] [INFO] ← GET /docs 304 (213ms)
+[2026-07-28T19:56:53.808Z] [INFO] → POST /api/history/draft
+[2026-07-28T19:56:53.811Z] [INFO] ← POST /draft 200 (4ms)
+[2026-07-28T19:56:53.819Z] [INFO] → GET /api/history/5e0fb5f6-4e03-4a0c-8e92-89565cd1a80a
+[2026-07-28T19:56:53.819Z] [INFO] ← GET /5e0fb5f6-4e03-4a0c-8e92-89565cd1a80a 200 (1ms)
+[2026-07-28T19:56:53.826Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:56:55.828Z] [INFO] → GET /api/history/5e0fb5f6-4e03-4a0c-8e92-89565cd1a80a
+[2026-07-28T19:56:55.829Z] [INFO] ← GET /5e0fb5f6-4e03-4a0c-8e92-89565cd1a80a 304 (1ms)
+[2026-07-28T19:56:56.556Z] [WARN] Explain "Photosynthesis": 5/5 layers returned empty text
+[2026-07-28T19:56:56.567Z] [ACTION] [ACTION] generation.complete | {"draftId":"5e0fb5f6-4e03-4a0c-8e92-89565cd1a80a","type":"explanation","subType":"general"}
+[2026-07-28T19:56:56.568Z] [INFO] ← POST /explain 200 (2741ms)
+[2026-07-28T19:56:56.572Z] [INFO] → GET /api/history/5e0fb5f6-4e03-4a0c-8e92-89565cd1a80a
+[2026-07-28T19:56:56.573Z] [INFO] ← GET /5e0fb5f6-4e03-4a0c-8e92-89565cd1a80a 200 (1ms)
+[2026-07-28T19:57:53.677Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:57:53.677Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:58:09.843Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:58:12.524Z] [DEBUG] Explain raw LLM output (first 500 chars): {
+  "Beginner": "Photosynthesis is like a plant’s kitchen. The plant takes sunlight, water, and a gas called carbon dioxide, mixes them together, and makes its own food (sugar) while letting out fresh oxygen for us to breathe.",
+  "School": "Photosynthesis is the process plants use to turn light energy into chemical energy. The basic formula is: 6 CO₂ + 6 H₂O + light → C₆H₁₂O₆ + 6 O₂. It happens in two main steps: (1) the light‑dependent reactions capture sunlight to make energy carriers (ATP an
+[2026-07-28T19:58:12.525Z] [WARN] Explain "Photosynthesis": 5/5 layers returned empty text
+[2026-07-28T19:58:12.536Z] [ACTION] [ACTION] generation.create | {"historyId":"f5bec80b-f163-40b7-941b-d6920ae62d89","type":"explanation","subType":"general"}
+[2026-07-28T19:58:12.538Z] [INFO] ← POST /explain 200 (2694ms)
+[2026-07-28T19:58:36.538Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:58:39.666Z] [DEBUG] Explain raw LLM output (first 500 chars): {
+  "Beginner": "Photosynthesis is like a plant’s kitchen. It takes sunlight, water, and a gas called carbon dioxide, mixes them together, and makes food (sugar) for the plant. While doing this, it also makes oxygen, which we breathe.\n\nThink of a leaf as a solar panel that turns light into energy and a kitchen that cooks food.\n",
+  "School": "Photosynthesis is the process plants use to turn light energy into chemical energy. It happens in the chloroplasts of leaf cells. The basic steps are:\n
+[2026-07-28T19:58:39.667Z] [WARN] Explain "Photosynthesis": 5/5 layers returned empty text
+[2026-07-28T19:58:39.676Z] [ACTION] [ACTION] generation.create | {"historyId":"9908219d-0be5-42c5-af27-c20df24b299f","type":"explanation","subType":"general"}
+[2026-07-28T19:58:39.677Z] [INFO] ← POST /explain 200 (3139ms)
+[2026-07-28T19:59:26.981Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:59:26.982Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:59:33.731Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T19:59:33.731Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T19:59:39.226Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:59:41.785Z] [INFO] Explain: falling back to per-level generation for "Photosynthesis"
+[2026-07-28T19:59:46.646Z] [ACTION] [ACTION] generation.create | {"historyId":"f7a658ba-7872-4d1c-8e71-8885368e174f","type":"explanation","subType":"general"}
+[2026-07-28T19:59:46.648Z] [INFO] ← POST /explain 200 (7421ms)
+[2026-07-28T19:59:52.127Z] [INFO] → POST /api/study/explain
+[2026-07-28T19:59:54.776Z] [INFO] Explain: falling back to per-level generation for "Photosynthesis"
+[2026-07-28T19:59:59.241Z] [ACTION] [ACTION] generation.create | {"historyId":"8d7a5b78-cf40-4bbd-ae3a-8855a6720fe4","type":"explanation","subType":"general"}
+[2026-07-28T19:59:59.243Z] [INFO] ← POST /explain 200 (7115ms)
+[2026-07-28T20:00:17.682Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:00:18.031Z] [INFO] ← GET /docs 304 (348ms)
+[2026-07-28T20:00:18.034Z] [INFO] → GET /api/history
+[2026-07-28T20:00:18.036Z] [INFO] ← GET / 304 (2ms)
+[2026-07-28T20:04:24.026Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:04:24.028Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-28T20:04:38.475Z] [INFO] → POST /api/study/plan
+[2026-07-28T20:04:39.930Z] [INFO] ← POST /plan 200 (1454ms)
+[2026-07-28T20:04:45.037Z] [INFO] → POST /api/history/draft
+[2026-07-28T20:04:45.041Z] [INFO] ← POST /draft 200 (5ms)
+[2026-07-28T20:04:45.051Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:45.052Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 200 (2ms)
+[2026-07-28T20:04:45.059Z] [INFO] → PATCH /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:45.063Z] [INFO] ← PATCH /19f2c342-d069-4d61-bca6-0966bc943f07 200 (5ms)
+[2026-07-28T20:04:45.068Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:45.069Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 200 (2ms)
+[2026-07-28T20:04:45.075Z] [INFO] → PATCH /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:45.078Z] [INFO] ← PATCH /19f2c342-d069-4d61-bca6-0966bc943f07 200 (4ms)
+[2026-07-28T20:04:45.083Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:45.083Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 200 (1ms)
+[2026-07-28T20:04:47.092Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:47.093Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:04:49.099Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:49.099Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:04:51.106Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:51.107Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (2ms)
+[2026-07-28T20:04:53.113Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:53.114Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:04:55.120Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:55.121Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:04:57.127Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:57.128Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:04:59.134Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:04:59.135Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:04:59.352Z] [INFO] → GET /api/admin/overview
+[2026-07-28T20:04:59.389Z] [INFO] FAISS index loaded (5146 vectors)
+[2026-07-28T20:04:59.391Z] [INFO] ← GET /overview 200 (38ms)
+[2026-07-28T20:05:00.977Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:05:00.979Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:05:02.291Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:05:02.294Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-28T20:05:02.295Z] [INFO] → GET /api/history
+[2026-07-28T20:05:02.297Z] [INFO] ← GET / 304 (2ms)
+[2026-07-28T20:05:07.154Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:05:07.156Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:05:08.777Z] [INFO] → GET /api/history
+[2026-07-28T20:05:08.778Z] [INFO] ← GET / 200 (2ms)
+[2026-07-28T20:05:09.993Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:09.994Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:09.998Z] [INFO] → PATCH /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:10.003Z] [INFO] ← PATCH /19f2c342-d069-4d61-bca6-0966bc943f07 200 (4ms)
+[2026-07-28T20:05:10.008Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:10.009Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 200 (1ms)
+[2026-07-28T20:05:12.015Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:12.016Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (0ms)
+[2026-07-28T20:05:14.021Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:14.022Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:16.028Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:16.029Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:18.035Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:18.036Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:20.042Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:20.043Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (0ms)
+[2026-07-28T20:05:22.049Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:22.050Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:24.058Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:24.058Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:26.064Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:26.065Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:28.072Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:28.073Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (2ms)
+[2026-07-28T20:05:30.078Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:30.079Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:32.085Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:32.086Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (0ms)
+[2026-07-28T20:05:34.093Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:34.093Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:36.099Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:36.100Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:38.106Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:38.106Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:40.113Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:40.114Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:42.119Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:42.120Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:44.126Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:44.127Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:46.132Z] [INFO] → GET /api/history/19f2c342-d069-4d61-bca6-0966bc943f07
+[2026-07-28T20:05:46.133Z] [INFO] ← GET /19f2c342-d069-4d61-bca6-0966bc943f07 304 (1ms)
+[2026-07-28T20:05:46.474Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:05:46.476Z] [INFO] ← GET /docs 304 (3ms)
+[2026-07-28T20:05:46.478Z] [INFO] → GET /api/history
+[2026-07-28T20:05:46.480Z] [INFO] ← GET / 304 (3ms)
+[2026-07-28T20:05:51.055Z] [INFO] → GET /api/history/565d6096-1420-45d0-bceb-11220f9908d4
+[2026-07-28T20:05:51.056Z] [INFO] ← GET /565d6096-1420-45d0-bceb-11220f9908d4 200 (1ms)
+[2026-07-28T20:05:51.062Z] [INFO] → POST /api/study/notes
+[2026-07-28T20:05:51.463Z] [WARN] Provider "Groq" does not support embeddings (404); using the local embedding model instead.
+[2026-07-28T20:05:51.464Z] [INFO] Loading local embedding model (Xenova/all-MiniLM-L6-v2)…
+[2026-07-28T20:05:51.629Z] [INFO] Local embedding model ready
+[2026-07-28T20:05:53.064Z] [INFO] → GET /api/history/565d6096-1420-45d0-bceb-11220f9908d4
+[2026-07-28T20:05:53.065Z] [INFO] ← GET /565d6096-1420-45d0-bceb-11220f9908d4 304 (2ms)
+[2026-07-28T20:05:54.438Z] [ACTION] [ACTION] generation.complete | {"draftId":"565d6096-1420-45d0-bceb-11220f9908d4","type":"notes","subType":"short-notes"}
+[2026-07-28T20:05:54.439Z] [INFO] ← POST /notes 200 (3378ms)
+[2026-07-28T20:05:54.445Z] [INFO] → GET /api/history/565d6096-1420-45d0-bceb-11220f9908d4
+[2026-07-28T20:05:54.446Z] [INFO] ← GET /565d6096-1420-45d0-bceb-11220f9908d4 200 (1ms)
+[2026-07-28T20:05:58.305Z] [INFO] → GET /api/analytics/advanced
+[2026-07-28T20:05:58.309Z] [INFO] ← GET / 200 (5ms)
+[2026-07-28T20:05:58.310Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-28T20:05:58.313Z] [INFO] ← GET /profile 200 (3ms)
+[2026-07-28T20:05:58.315Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-28T20:05:58.318Z] [INFO] ← GET /recommendations 200 (3ms)
+[2026-07-28T20:05:59.500Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:05:59.500Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:05:59.502Z] [INFO] → GET /api/history
+[2026-07-28T20:05:59.504Z] [INFO] ← GET / 200 (1ms)
+[2026-07-28T20:06:02.525Z] [INFO] → GET /api/history/565d6096-1420-45d0-bceb-11220f9908d4
+[2026-07-28T20:06:02.526Z] [INFO] ← GET /565d6096-1420-45d0-bceb-11220f9908d4 304 (1ms)
+[2026-07-28T20:06:03.854Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:06:03.855Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:06:03.857Z] [INFO] → GET /api/history
+[2026-07-28T20:06:03.859Z] [INFO] ← GET / 304 (2ms)
+[2026-07-28T20:06:08.566Z] [INFO] → GET /api/history/888a9c74-4f52-40aa-b4a3-3e34a70e3df1
+[2026-07-28T20:06:08.568Z] [INFO] ← GET /888a9c74-4f52-40aa-b4a3-3e34a70e3df1 200 (2ms)
+[2026-07-28T20:06:11.302Z] [INFO] → GET /api/analytics/advanced
+[2026-07-28T20:06:11.306Z] [INFO] ← GET / 304 (3ms)
+[2026-07-28T20:06:11.308Z] [INFO] → GET /api/analytics/advanced/profile
+[2026-07-28T20:06:11.311Z] [INFO] ← GET /profile 304 (2ms)
+[2026-07-28T20:06:11.311Z] [INFO] → GET /api/analytics/advanced/recommendations
+[2026-07-28T20:06:11.314Z] [INFO] ← GET /recommendations 304 (2ms)
+[2026-07-28T20:06:14.841Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:06:14.843Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-28T20:06:14.845Z] [INFO] → GET /api/history
+[2026-07-28T20:06:14.846Z] [INFO] ← GET / 304 (2ms)
+[2026-07-28T20:06:23.597Z] [INFO] → GET /api/history
+[2026-07-28T20:06:23.598Z] [INFO] ← GET / 200 (2ms)
+[2026-07-28T20:06:24.199Z] [INFO] → GET /api/history
+[2026-07-28T20:06:24.200Z] [INFO] ← GET / 200 (1ms)
+[2026-07-28T20:06:25.026Z] [INFO] → GET /api/history
+[2026-07-28T20:06:25.027Z] [INFO] ← GET / 200 (1ms)
+[2026-07-28T20:06:28.376Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:06:28.377Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-28T20:06:32.301Z] [INFO] → POST /api/history/draft
+[2026-07-28T20:06:32.306Z] [INFO] ← POST /draft 200 (5ms)
+[2026-07-28T20:06:32.313Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:32.314Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 200 (1ms)
+[2026-07-28T20:06:32.320Z] [INFO] → PATCH /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:32.324Z] [INFO] ← PATCH /aa1bcb15-f943-4876-b554-1bd9160e17c6 200 (4ms)
+[2026-07-28T20:06:32.328Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:32.329Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 200 (1ms)
+[2026-07-28T20:06:32.334Z] [INFO] → PATCH /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:32.338Z] [INFO] ← PATCH /aa1bcb15-f943-4876-b554-1bd9160e17c6 200 (5ms)
+[2026-07-28T20:06:32.342Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:32.343Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 200 (0ms)
+[2026-07-28T20:06:34.348Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:34.349Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:36.358Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:36.359Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:06:38.365Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:38.366Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:06:40.373Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:40.374Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:42.380Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:42.380Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:44.386Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:44.387Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:46.394Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:46.395Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:06:48.401Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:48.402Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:50.407Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:50.407Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:52.414Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:52.416Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (2ms)
+[2026-07-28T20:06:54.420Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:54.421Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:56.427Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:56.428Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:06:58.435Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:06:58.436Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:07:00.441Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:00.442Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (2ms)
+[2026-07-28T20:07:02.448Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:02.449Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:07:04.455Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:04.456Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:06.462Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:06.463Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:08.469Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:08.470Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:07:10.476Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:10.477Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:12.483Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:12.484Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:14.490Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:14.491Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:07:16.498Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:16.499Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:18.509Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:18.510Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:20.517Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:20.518Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:22.524Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:22.525Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:24.530Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:24.531Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:26.538Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:26.539Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:28.544Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:28.545Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:30.551Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:30.552Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:32.558Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:32.559Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:34.565Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:34.566Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:07:36.572Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:36.572Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:38.579Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:38.581Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:40.586Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:40.587Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:07:42.594Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:42.594Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:44.601Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:44.602Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:07:46.607Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:46.608Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:48.615Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:48.616Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:50.627Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:50.628Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:52.635Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:52.637Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:54.650Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:54.651Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (2ms)
+[2026-07-28T20:07:56.663Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:56.664Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:07:58.669Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:07:58.670Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:00.676Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:00.677Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:02.683Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:02.684Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:08:04.690Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:04.690Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:06.697Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:06.698Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (2ms)
+[2026-07-28T20:08:08.704Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:08.704Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:10.710Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:10.711Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:12.717Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:12.718Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:14.723Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:14.724Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:16.731Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:16.731Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:18.737Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:18.738Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:20.744Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:20.745Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:22.752Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:22.752Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:24.758Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:24.759Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:26.765Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:26.766Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:28.773Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:28.774Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:30.780Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:30.781Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:32.786Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:32.786Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:34.793Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:34.793Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:08:36.800Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:36.801Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:38.806Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:38.807Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:40.814Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:40.815Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:42.821Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:42.822Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:08:44.828Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:44.829Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:08:46.834Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:46.835Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (0ms)
+[2026-07-28T20:08:48.841Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:48.841Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:50.848Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:50.849Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:52.855Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:52.856Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:54.861Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:54.862Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:56.869Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:56.870Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:08:58.875Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:08:58.876Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (2ms)
+[2026-07-28T20:09:00.884Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:00.885Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:02.896Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:02.897Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:04.903Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:04.903Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:06.910Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:06.911Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:08.916Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:08.917Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:10.923Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:10.924Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:12.930Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:12.931Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:14.937Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:14.938Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:16.945Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:16.946Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:18.952Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:18.953Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:20.958Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:20.959Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:22.965Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:22.966Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:24.971Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:24.972Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:26.977Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:26.978Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:28.985Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:28.986Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:30.991Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:30.992Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:32.998Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:32.999Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:35.005Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:35.005Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:37.011Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:37.012Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:39.018Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:39.019Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:41.025Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:41.026Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:43.032Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:43.033Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:45.040Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:45.041Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:47.047Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:47.047Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:49.054Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:49.055Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:51.061Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:51.063Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (2ms)
+[2026-07-28T20:09:53.068Z] [INFO] → GET /api/history/aa1bcb15-f943-4876-b554-1bd9160e17c6
+[2026-07-28T20:09:53.069Z] [INFO] ← GET /aa1bcb15-f943-4876-b554-1bd9160e17c6 304 (1ms)
+[2026-07-28T20:09:54.599Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:09:54.600Z] [INFO] ← GET /docs 304 (2ms)
+[2026-07-28T20:35:42.149Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:35:42.150Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:36:52.257Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:36:52.258Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:37:13.359Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:37:13.360Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:41:43.048Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T20:41:43.049Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T20:45:20.872Z] [INFO] StudyForge server listening on http://localhost:5174
+[2026-07-28T20:45:20.872Z] [INFO] API mounted at /api   (frontend dev proxy → :5173)
+[2026-07-28T20:45:41.442Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:45:41.655Z] [INFO] ← GET /docs 200 (213ms)
+[2026-07-28T20:45:58.132Z] [INFO] → GET /api/chat/sessions
+[2026-07-28T20:45:58.134Z] [INFO] ← GET /sessions 200 (3ms)
+[2026-07-28T20:46:26.740Z] [INFO] → GET /api/voice/status
+[2026-07-28T20:46:26.742Z] [INFO] ← GET /status 200 (2ms)
+[2026-07-28T20:46:26.747Z] [INFO] → GET /api/voice/status
+[2026-07-28T20:46:26.748Z] [INFO] ← GET /status 304 (2ms)
+[2026-07-28T20:46:41.316Z] [INFO] → GET /api/chat/sessions
+[2026-07-28T20:46:41.317Z] [INFO] ← GET /sessions 304 (1ms)
+[2026-07-28T20:46:48.508Z] [INFO] → GET /api/rag/docs
+[2026-07-28T20:46:48.509Z] [INFO] ← GET /docs 304 (1ms)
+[2026-07-28T20:46:48.510Z] [INFO] → GET /api/history
+[2026-07-28T20:46:48.513Z] [INFO] ← GET / 304 (2ms)
+[2026-07-28T20:47:03.157Z] [INFO] → GET /api/history
+[2026-07-28T20:47:03.158Z] [INFO] ← GET / 304 (1ms)

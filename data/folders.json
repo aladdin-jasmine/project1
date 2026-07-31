@@ -1,0 +1,31 @@
+{
+  "root": {
+    "id": "root",
+    "name": "All Documents",
+    "parentId": null,
+    "docIds": [
+      "74b54886-07bb-46c5-b7b7-d5589aaba9ee"
+    ],
+    "children": [
+      {
+        "id": "22d247d4-16c6-413a-9dd5-1695b62a6ac7",
+        "name": "MY Files",
+        "parentId": null,
+        "docIds": [],
+        "children": [],
+        "createdAt": "2026-07-28T17:04:32.433Z"
+      },
+      {
+        "id": "85b97f8d-7307-4006-8061-ad56d736c4aa",
+        "name": "Python Tutorial - GeeksforGeeks",
+        "parentId": null,
+        "docIds": [
+          "8387c00f-c4a3-4beb-add0-cef848a0d083"
+        ],
+        "children": [],
+        "createdAt": "2026-07-28T18:08:13.350Z"
+      }
+    ],
+    "createdAt": "2026-07-28T17:04:32.422Z"
+  }
+}
